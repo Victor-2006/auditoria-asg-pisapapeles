@@ -31,3 +31,14 @@ Con estos valores la web presenta un consumo muy superior para una pagina de com
 | Imagenes JPG de productos | No utilizan formatos modernos como WebP o AVIF |
 | Carrusel Principal | Carga imagenes grandes incluso fuera de pantalla |
 | Scripts JavaScript externos | Hay librerias cargadas y no siempre se usan |
+
+Tambien encontre varias evidencias:
+
+* Varias imagenes superan los 300 KB
+
+* El carrusel principal descarga multiples banners al iniciar
+
+* Existen peticiones bloqueantes de renderizado
+
+* Se cargan elementos antes de ser necesario
+
