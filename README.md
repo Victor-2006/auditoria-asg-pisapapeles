@@ -14,10 +14,10 @@
 
 Con estos valores la web presenta un consumo muy superior para una pagina de comercio sencilla. Su peso total es elevado debido a:
 
-Imagenes de alta resolucion si optimizar
+* Imagenes de alta resolucion sin optimizar
 
-Scripts externos
+* Scripts externos
 
-Recursos visuales
+* Recursos visuales
 
-Carga simultanea de multiples productos en la pagina principal
+* Carga simultanea de multiples productos en la pagina principal
