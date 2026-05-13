@@ -1,1 +1,2 @@
-# Auditoria_Y_Refactorizacion_SAP
+# Auditoría ASG y Refactorización Sostenible
+## Fase 1: Inventario y Dimensión Ambiental (A)
