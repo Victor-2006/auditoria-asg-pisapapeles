@@ -24,3 +24,10 @@ Con estos valores la web presenta un consumo muy superior para una pagina de com
 
 ### 2. Identificación de Bloatware. Inspecciona la red (Network) en las herramientas de desarrollador del navegador. Identifica los 3 recursos más pesados que se descargan al abrir la web (imágenes sin comprimir, vídeos de fondo, librerías JavaScript pesadas, etc.).
 
+  Tras analizar la web con la pestaña de Red de Chrome encontre recursos especialmente pesados que son:
+   
+  |Recurso | Problema detectado |
+| :--- | :--- |
+| Imagenes JPG de productos | No utilizan formatos modernos como WebP o AVIF |
+| Carrusel Principal | Carga imagenes grandes incluso fuera de pantalla |
+| Scripts JavaScript externos | Hay librerias cargadas y no siempre se usan |
