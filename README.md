@@ -21,3 +21,6 @@ Con estos valores la web presenta un consumo muy superior para una pagina de com
 * Recursos visuales
 
 * Carga simultanea de multiples productos en la pagina principal
+
+### 2. Identificación de Bloatware. Inspecciona la red (Network) en las herramientas de desarrollador del navegador. Identifica los 3 recursos más pesados que se descargan al abrir la web (imágenes sin comprimir, vídeos de fondo, librerías JavaScript pesadas, etc.).
+
