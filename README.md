@@ -1,4 +1,5 @@
 # Auditoría ASG y Refactorización Sostenible
+**Web auditada:** https://www.pisapapeles.es/
 ## Fase 1: Inventario y Dimensión Ambiental (A)
 ### 1. Medición inicial. Utiliza herramientas gratuitas como Website Carbon Calculator o Lighthouse (pestaña de rendimiento en Chrome/Edge) para obtener la huella de carbono estimada por visita.
    Realize una auditoria con esas herramientas y algunas de los resultados son:
@@ -11,6 +12,11 @@
 | Rendimiento Lighthouse | 72/100 |
 | Accesibilidad Lighthouse | 72/100 |
 | Huella estimada por visita | 1,1 g CO2 |
+
+### Captura Lighthouse
+
+
+### Captura Website Carbon
 
 Con estos valores la web presenta un consumo muy superior para una pagina de comercio sencilla. Su peso total es elevado debido a:
 
@@ -32,6 +38,9 @@ Con estos valores la web presenta un consumo muy superior para una pagina de com
 | Carrusel Principal | Carga imagenes grandes incluso fuera de pantalla |
 | Scripts JavaScript externos | Hay librerias cargadas y no siempre se usan |
 
+### Captura Network
+
+
 Tambien encontre varias evidencias:
 
 * Varias imagenes superan los 300 KB
@@ -42,3 +51,57 @@ Tambien encontre varias evidencias:
 
 * Se cargan elementos antes de ser necesario
 
+
+# FASE 2: Dimensión Social y Equidad (S)
+
+## 2.1 Test de accesibilidad
+
+Se utilizó Lighthouse y WAVE para analizar accesibilidad
+
+| Indicador | Resultado |
+|---|---|
+| Accesibilidad | X/100 |
+| Contraste | Mejorable |
+| Navegación teclado | Parcial |
+
+### Captura WAVE
+
+
+## 2.2 Identificación de barreras
+
+### Problema 1: imágenes sin atributos ALT
+
+### Problema detectado:
+
+Algunas imágenes carecen de descripción.
+
+### Impacto:
+
+Los lectores de pantalla no pueden interpretar el contenido.
+
+### Ejemplo:
+
+html
+<img src="producto.jpg">
+
+### Solución:
+
+html
+<img src="producto.webp"
+alt="Juego educativo">
+
+### Problema 2: bajo contraste
+
+### Problema:
+
+Texto con colores poco visibles.
+
+###Impacto:
+
+Dificulta la lectura a personas con baja visión.
+
+### Solución:
+
+- Mejorar colores
+- Cumplir WCAG AA
+- Ratio mínimo 4.5:1
