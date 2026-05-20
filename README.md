@@ -14,9 +14,10 @@
 | Huella estimada por visita | 1,1 g CO2 |
 
 ### Captura Lighthouse
-
+<img width="1919" height="945" alt="image" src="https://github.com/user-attachments/assets/11ad0371-d677-49be-a89f-71edea913395" />
 
 ### Captura Website Carbon
+<img width="1917" height="942" alt="image" src="https://github.com/user-attachments/assets/7c2429d1-6f27-45af-ac29-2c621bfe427e" />
 
 Con estos valores la web presenta un consumo muy superior para una pagina de comercio sencilla. Su peso total es elevado debido a:
 
@@ -39,7 +40,7 @@ Con estos valores la web presenta un consumo muy superior para una pagina de com
 | Scripts JavaScript externos | Hay librerias cargadas y no siempre se usan |
 
 ### Captura Network
-
+<img width="1919" height="943" alt="image" src="https://github.com/user-attachments/assets/843e16bd-4851-441b-9c54-fe27013e1bd7" />
 
 Tambien encontre varias evidencias:
 
@@ -50,7 +51,6 @@ Tambien encontre varias evidencias:
 * Existen peticiones bloqueantes de renderizado
 
 * Se cargan elementos antes de ser necesario
-
 
 # FASE 2: Dimensión Social y Equidad (S)
 
