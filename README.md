@@ -79,10 +79,12 @@ Los lectores de pantalla no pueden interpretar el contenido.
 
 ### Ejemplo:
 En este ejemplo el juego ITS BANANAS no tiene una alt correcta
+
 <img width="1919" height="942" alt="Captura de pantalla 2026-05-20 132318" src="https://github.com/user-attachments/assets/6d61a3b9-1295-4ce6-be77-a78ca73fdeb4" />
 
 ### Solución:
 Yo por lo menos pondria el nombre del juego de mesa
+
 <img width="1919" height="989" alt="Captura de pantalla 2026-05-20 132543" src="https://github.com/user-attachments/assets/ab15db96-1722-4bb7-8b62-33abefe46ada" />
 
 ### Problema 2: bajo contraste
