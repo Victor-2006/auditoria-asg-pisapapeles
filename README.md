@@ -60,7 +60,7 @@ Se utilizó Lighthouse y WAVE para analizar accesibilidad
 
 | Indicador | Resultado |
 |---|---|
-| Accesibilidad | X/100 |
+| Accesibilidad | 72/100 |
 | Contraste | Mejorable |
 | Navegación teclado | Parcial |
 
