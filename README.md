@@ -137,12 +137,13 @@ Sin embargo, el diseño visual incita ligeramente a la aceptacion frente a otras
 ### Mejora propuesta
 Para aumentar la transparencia:
 
-- Utilizar botone con el mismo peso visual
+- Utilizar botones con el mismo peso visual
 - Mantener visibles las opciones de aceptar y rechazar
 - Simplificar la explicacion de las cookies
 
 ### 3.2 Datos innecesarios
 Se reviso el formulario de contacto de la web
+
 <img width="1917" height="990" alt="formulario_registro" src="https://github.com/user-attachments/assets/59f46c21-7879-446a-8706-5b4d408b22a5" />
 
 Datos observados:
@@ -150,3 +151,10 @@ Datos observados:
 - Nombre
 - Correo electronico
 - Teléfono
+
+### Mejora propuesta
+Aplicar el principio de minimizacion de datos:
+
+- Solicitar solo la informacion necesaria
+- Explicar claramente el uso de cada dato
+- Reducir la recopilacion de informacion innecesaria
