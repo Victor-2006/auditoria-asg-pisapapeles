@@ -102,3 +102,51 @@ Dificulta la lectura a personas con baja visión.
 - Mejorar colores
 - Cumplir WCAG AA
 - Ratio mínimo 4.5:1
+
+# FASE 3: Dimension de Gobernanza y Ética (G)
+## 3.1 Transparencia
+Se analizó el sistema de consentimiento de cookies de la web
+
+### Captura del banner de cookies
+<img width="1919" height="944" alt="Banner_cookies" src="https://github.com/user-attachments/assets/173138cc-d232-4159-9a1f-6aa19c6a913e" />
+
+### Analisis realizado
+La web permite configurar las cookies mediante varias opciones como:
+- Configurar
+- Básicas
+- Aceptar todas
+  
+Tambien diferencia entre
+
+- Cookies imprescindibles
+- Cookies no imprescindibles
+
+Aspectos positivos:
+- El usuario puede configurar las cookies
+- Las cookies necesarias aparecen diferenciadas
+- Existe informacion sobre cada categoria
+
+Aspectos a mejorar:
+- El boton **Aceptar todas** utiliza un color mucho mas llamativo que el resto
+- Puede incentivar a una aceptacion rapida
+
+### Evaluacion etica
+No se detecta patrones oscuros, ya que existe la opcion de configurar las cookies y desactivar las no imprescindibles.
+Sin embargo, el diseño visual incita ligeramente a la aceptacion frente a otras opciones y eso si que lo mejoraria
+
+### Mejora propuesta
+Para aumentar la transparencia:
+
+- Utilizar botone con el mismo peso visual
+- Mantener visibles las opciones de aceptar y rechazar
+- Simplificar la explicacion de las cookies
+
+### 3.2 Datos innecesarios
+Se reviso el formulario de contacto de la web
+<img width="1917" height="990" alt="formulario_registro" src="https://github.com/user-attachments/assets/59f46c21-7879-446a-8706-5b4d408b22a5" />
+
+Datos observados:
+
+- Nombre
+- Correo electronico
+- Teléfono
