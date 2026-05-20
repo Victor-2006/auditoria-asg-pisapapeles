@@ -56,15 +56,13 @@ Tambien encontre varias evidencias:
 
 ## 2.1 Test de accesibilidad
 
-Se utilizó Lighthouse y WAVE para analizar accesibilidad
+Se utilizó Lighthouse para analizar accesibilidad
 
 | Indicador | Resultado |
 |---|---|
 | Accesibilidad | 72/100 |
 | Contraste | Mejorable |
 | Navegación teclado | Parcial |
-
-### Captura WAVE
 
 
 ## 2.2 Identificación de barreras
