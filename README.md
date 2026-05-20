@@ -93,7 +93,7 @@ Yo por lo menos pondria el nombre del juego de mesa
 
 Texto con colores poco visibles.
 
-###Impacto:
+### Impacto:
 
 Dificulta la lectura a personas con baja visión.
 
