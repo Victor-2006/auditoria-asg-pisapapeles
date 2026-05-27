@@ -1,0 +1,2544 @@
+<!DOCTYPE html>
+<html lang="">
+<head><script>
+		document.funcEvents = new Array();
+		document.clearWLSEvents = function(){
+			for (index in document.funcEvents){
+				document.removeEventListener('WSLE', document.funcEvents[index]);
+			}
+			document.funcEvents = [];
+		}
+		document.triggerWLSEvent = function(){
+			var event = new Event('WSLE'); document.dispatchEvent(event);
+			document.clearWLSEvents();
+		}
+		var jsf6a16d9eae2e8b = EventTarget.prototype.addEventListener;
+		EventTarget.prototype.addEventListener = function(type, fn, capture) {
+			if (type == 'WSLE'){
+				document.funcEvents.push(fn);
+			}
+			this.f = jsf6a16d9eae2e8b;
+			this.f(type, fn, capture);
+		}
+		</script>
+    <meta charset="UTF-8">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    
+    <!-- Idiomas disponibles en la web -->
+    
+<meta name="application-name" content="webstore">
+    <title>Librería Pisapapeles</title>
+    <meta name="language" content="ES">
+    <meta name="author" content="Arminet">
+    <meta name="Copyright" content="Copyright ARMINET">
+    <meta name="revisit-after" content="1 hour">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Librería y papelería situada en Camas (Sevilla) desde 1999. Disponemos de gran variedad de libros y juegos.">
+    <meta name="keywords" content="libreria camas, papeleria camas, libreria sevilla, juegos sevilla, juguetes sevilla, libros camas">
+    <meta name="title" content="Librería Pisapapeles">
+    <link rel="canonical" href="https://www.pisapapeles.es/">
+    <style>
+        *{font-family:"Poppins",sans-serif}* a{color:#e0e0e0;text-decoration:none}body{height:100%;width:100%}.preloader{position:fixed;width:100%;height:100%;background-color:#fff;z-index:10000;left:0px;top:0px}.lds-ring{position:absolute;width:112px;height:112px;left:50%;top:50%;margin-left:-66px;margin-top:-66px;z-index:10000}.lds-ring div{box-sizing:border-box;display:block;position:absolute;width:100px;height:100px;margin:6px;border:10px solid #1a1a1a;border-radius:50%;animation:lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;border-color:#1a1a1a rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,0)}.lds-ring div:nth-child(1){animation-delay:-0.45s}.lds-ring div:nth-child(1){animation-delay:-0.3s}.lds-ring div:nth-child(1){animation-delay:-0.15s}@keyframes lds-ring{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+    </style>
+        <style>
+        body{background:#000}.preloader{position:fixed;width:100%;height:100%;background-color:#fff;z-index:10000;left:0px;top:0px;text-align:center}.preloader .container{text-align:center;height:100%}.preloader .container .section{height:100%;width:100%}.preloader .container .section .lds-grid{display:inline-block;position:relative;width:64px;height:64px;margin-top:25%}.preloader .container .section .lds-grid div{position:absolute;width:13px;height:13px;border-radius:50%;background:#1a1a1a;animation:lds-grid 1.2s linear infinite}.preloader .container .section .lds-grid div:nth-child(1){top:6px;left:6px;animation-delay:0s}.preloader .container .section .lds-grid div:nth-child(2){top:6px;left:26px;animation-delay:-0.4s}.preloader .container .section .lds-grid div:nth-child(3){top:6px;left:45px;animation-delay:-0.8s}.preloader .container .section .lds-grid div:nth-child(4){top:26px;left:6px;animation-delay:-0.4s}.preloader .container .section .lds-grid div:nth-child(5){top:26px;left:26px;animation-delay:-0.8s}.preloader .container .section .lds-grid div:nth-child(6){top:26px;left:45px;animation-delay:-1.2s}.preloader .container .section .lds-grid div:nth-child(7){top:45px;left:6px;animation-delay:-0.8s}.preloader .container .section .lds-grid div:nth-child(8){top:45px;left:26px;animation-delay:-1.2s}.preloader .container .section .lds-grid div:nth-child(9){top:45px;left:45px;animation-delay:-1.6s}@keyframes lds-grid{0%,100%{opacity:1}50%{opacity:.5}}@media only screen and (max-width: 600px){.preloader .container section{min-width:350px}}
+    </style>
+        <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "url": "https://www.pisapapeles.es/",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://www.pisapapeles.es/buscar/{search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        }
+    </script>
+    <!-- DATOS ESTRUCTURADOS EMPRESA -->
+    <script type='application/ld+json' id="microdata-localbusiness-script">
+        {
+            "@context": "http://www.schema.org",
+            "@type": "LocalBusiness",
+            "name": "MONTES SERRANO, MARCIAL",
+            "url": "https://www.pisapapeles.es/",
+            "sameAs": [
+                "https://www.pisapapeles.es/"
+            ],
+            "priceRange": "€€",
+            "description": "Librería y papelería situada en Camas (Sevilla) desde 1999. Disponemos de gran variedad de libros y juegos.",
+            "telephone": "954390117",
+            "logo": "https://www.pisapapeles.es/upload/img/logotipos/1752669785__logo_completo.png",
+            "image": "https://www.pisapapeles.es/upload/img/logotipos/1752669785__logo_completo.png",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Avda. Clara Campoamor nº11",
+                "addressLocality": "CAMAS",
+                "addressRegion": "SEVILLA",
+                "postalCode": "41900",
+                "addressCountry": "ES"
+
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "0",
+                "longitude": "0"
+            },
+            "hasMap": "",
+            "openingHours": "De lunes a viernes 9:00–14:00, 17:00–20:00 y sábados de 10:30 a 13:30 ",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "Customer Service",
+                "telephone": "954390117"
+            }
+        }
+    </script>
+    <!-- DATOS ESTRUCTURADOS EMPRESA -->
+        <link rel="shortcut icon" href="https://www.pisapapeles.es/favicon.ico">
+    <link rel="icon" href="https://www.pisapapeles.es/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://www.pisapapeles.es/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://www.pisapapeles.es/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://www.pisapapeles.es/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://www.pisapapeles.es/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://www.pisapapeles.es/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://www.pisapapeles.es/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://www.pisapapeles.es/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://www.pisapapeles.es/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.pisapapeles.es/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://www.pisapapeles.es/themes/pisapapeles/html_files/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.pisapapeles.es/themes/pisapapeles/html_files/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://www.pisapapeles.es/themes/pisapapeles/html_files/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.pisapapeles.es/themes/pisapapeles/html_files/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://www.pisapapeles.es/themes/pisapapeles/html_files/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#4666a0">
+    <meta name="msapplication-TileImage" content="https://www.pisapapeles.es/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+            <meta property="google-signin-client_id" content="no">
+        <meta property="og:title" content="Librería Pisapapeles">
+        <meta property="og:description" content="Librería y papelería situada en Camas (Sevilla) desde 1999. Disponemos de gran variedad de libros y juegos.">
+    <meta property="og:url" content="https://www.pisapapeles.es/">
+        <meta property="og:site_name" content="https://www.pisapapeles.es/">
+       <meta property="twitter:card" content="summary_large_image">
+   <meta property="twitter:site" content="miSitedeTest">
+   <meta property="twitter:creator" content="micreatorDeTest">
+   <meta property="og:title" content="Librería Pisapapeles">
+   <meta property="og:description" content="Librería y papelería situada en Camas (Sevilla) desde 1999. Disponemos de gran variedad de libros y juegos.">
+   <meta property="og:image" content="https://www.pisapapeles.es/upload/img/logotipos/1752233788__logo_facebook.png">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8FEY0ND05J" rel="preload"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-8FEY0ND05J');
+        gtag('consent', 'update', {
+      'ad_storage': 'granted',
+      'analytics_storage': 'granted'
+    }); 
+  </script>
+</head><body>
+    				<div data-update="cookies_policy" data-configuration="YTozOntzOjY6IndpZGdldCI7czoxNDoiY29va2llc19wb2xpY3kiO3M6ODoiZnVuY3Rpb24iO2E6Mjp7czoxMjoidGVtcGxhdGVGaWxlIjtzOjE4OiJjb29raWVzX3BvbGljeS5waHAiO3M6MTE6ImRhdGFfdXBkYXRlIjtzOjE0OiJjb29raWVzX3BvbGljeSI7fXM6ODoib3BjaW9uZXMiO047fQ==">
+				<div class="fondo-espacio-cookies" style="display:none;" data-nosnippet="data-nosnippet">
+	<div class="espacio-cookies">
+		<div class="espacio-cookies-scroll">
+			<div class="informacion-general-cookies">
+				<div class="texto">
+					Este sitio web utiliza cookies para mejorar su experiencia mientras navega. Las cookies que se clasifican según sea necesario se almacenan en su navegador, ya que son esenciales para el funcionamiento de las características básicas del sitio web. También utilizamos cookies de terceros que nos ayudan a analizar y comprender cómo utiliza este sitio web. Estas cookies se almacenarán en su navegador solo con su consentimiento. También tiene la opción de optar por no recibir estas cookies. Pero la exclusión voluntaria de algunas de estas cookies puede afectar su experiencia de navegación.
+				</div>
+			</div>
+			<div class="tipo_cookie">
+				<div class="tipo-cookes-cabecera" >
+					<p>Imprescindibles</p>
+				</div>
+				<div class="tipo-cookies-contenido " id="info_cookie_imprescindibles">
+					<p>Las cookies necesarias son absolutamente esenciales para que el sitio web funcione correctamente. Esta categoría solo incluye cookies que garantizan funcionalidades básicas y características de seguridad del sitio web. Estas cookies no almacenan ninguna información personal.</p>
+				</div>
+			</div>
+			<div class="tipo_cookie">
+				<div class="tipo-cookes-cabecera">
+					<p>No imprescindibles</p>
+					<div class="tipo-cookie-switch">
+						<input id="check_tipo_cookie_no_imprescindible" type="checkbox" class="tipo-cookie-check" checked="checked">
+						<label for="check_tipo_cookie_no_imprescindible" class="tipo-cookie-check-label" data-cli-enable="Activado" data-cli-disable="Desactivado"></label>
+					</div>
+				</div>
+				<div class="tipo-cookies-contenido " id="info_cookie_NO_imprescindibles">
+					<p>Estas cookies pueden no ser particularmente necesarias para que el sitio web funcione y se utilizan específicamente para recopilar datos estadísticos sobre el uso del sitio web y para recopilar datos del usuario a través de análisis, anuncios y otros contenidos integrados. Activándolas nos autoriza a su uso mientras navega por nuestra página web.</p>
+					<button class="boton" type="button" data-toggle="collapse" data-target="#configuracion_cookies" aria-expanded="false" aria-controls="configuracion_cookies" title="Ver no imprescindibles">
+						Ver no imprescindibles					</button>
+					<div class="text_leg_fCookies collapse multi-collapse" id="configuracion_cookies">
+						<div class="tipo-cookes-cabecera selector_cookies_no_imprescindible">
+							<p>Google</p>
+							<div class="tipo-cookie-switch">
+								<input id="check_tipo_cookie_google" type="checkbox" class="tipo-cookie-check" checked="checked">
+								<label for="check_tipo_cookie_google" class="tipo-cookie-check-label" data-cli-enable="Activado" data-cli-disable="Desactivado"></label>
+							</div>
+						</div>
+
+						<div class="tipo-cookes-cabecera selector_cookies_no_imprescindible">
+							<p>Google ADS</p>
+							<div class="tipo-cookie-switch">
+								<input id="check_tipo_cookie_ads" type="checkbox" class="tipo-cookie-check" checked="checked">
+								<label for="check_tipo_cookie_ads" class="tipo-cookie-check-label" data-cli-enable="Activado" data-cli-disable="Desactivado"></label>
+							</div>
+						</div>
+
+												<div class="tipo-cookes-cabecera selector_cookies_analytics">
+							<p>Google Analytics</p>
+							<div class="tipo-cookie-switch">
+								<input id="check_tipo_cookie_analytics" type="checkbox" class="tipo-cookie-check" checked="checked">
+								<label for="check_tipo_cookie_analytics" class="tipo-cookie-check-label" data-cli-enable="Activado" data-cli-disable="Desactivado"></label>
+							</div>
+						</div>
+													<div class="tipo-cookes-cabecera selector_cookies_grecaptcha">
+								<p>Google grecaptcha</p>
+								<div class="tipo-cookie-switch">
+									<input id="check_tipo_cookie_grecaptcha" type="checkbox" class="tipo-cookie-check" checked="checked">
+									<label for="check_tipo_cookie_grecaptcha" class="tipo-cookie-check-label" data-cli-enable="Activado" data-cli-disable="Desactivado"></label>
+								</div>
+							</div>
+						
+					</div>
+				</div>
+			</div>
+			<div class="capa_boton">
+				<button class="aceptarConfigurar">
+					Configurar				</button>
+				<button class="aceptarSoloBasicas">
+					Básicas				</button>
+				<button class="aceptarGuardar">
+					Aceptar todas				</button>
+			</div>
+		</div>
+				<script id="script_1">
+						let activados = 0;
+			let desactivados = 0;
+						 activados = activados +1;
+			 activados = activados + 1;
+			 activados = activados +1;
+			 activados = activados +1;
+			 activados = activados +1;
+						document.addEventListener('WSLE', function(event) {
+								var elementObjetive = getLastHtmlObject('script_1');
+				var cookieCheck = elementObjetive.find('#check_tipo_cookie_no_imprescindible');
+				var aceptarConfigurar = elementObjetive.find('button.aceptarConfigurar');
+				var aceptarSoloBasicas = elementObjetive.find('button.aceptarSoloBasicas');
+				var botonAceptarGuardar = elementObjetive.find('button.aceptarGuardar');
+				var cookieCheckGoogle = elementObjetive.find('#check_tipo_cookie_google');
+				var cookieCheckAds = elementObjetive.find('#check_tipo_cookie_ads');
+				var cookieCheckAnalytics = elementObjetive.find('#check_tipo_cookie_analytics');
+				var cookieCheckTagmanager = elementObjetive.find('#check_tipo_cookie_googletagmanager');
+				var cookieCheckGrecaptcha = elementObjetive.find('#check_tipo_cookie_grecaptcha');
+
+				
+				aceptarConfigurar.on('click', function(event) {
+					var cookiesAceptadas = cookieCheck.is(':checked');
+					var cookieGoogle = cookieCheckGoogle.is(':checked');
+					var cookieAds = cookieCheckAds.is(':checked');
+					var cookieAnalytics = cookieCheckAnalytics.is(':checked');
+					var cookieTagmanager = cookieCheckTagmanager.is(':checked');
+					var cookieGrecaptcha = cookieCheckGrecaptcha.is(':checked');
+					var data = {};
+										data._COOKIES_ACCEPTED = true;
+					if (cookiesAceptadas) {
+						//El usuario ha aceptado las cookies no imprescindibles, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga:
+						if (cookieGoogle) {
+							//El usuario ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga:
+							data._COOKIES_ACCEPTED_GOOGLE = true;
+						} else {
+							//El usuario NO ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga
+							data._COOKIES_ACCEPTED_GOOGLE = false;
+						}
+
+						if (cookieAds) {
+							//El usuario ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga:
+							data._COOKIES_ACCEPTED_ADS = true;
+						} else {
+							//El usuario NO ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga
+							data._COOKIES_ACCEPTED_ADS = false;
+						}
+
+						if (cookieAnalytics) {
+							//El usuario ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga:
+							data._COOKIES_ACCEPTED_ANALYTICS = true;
+						} else {
+							//El usuario NO ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga
+							data._COOKIES_ACCEPTED_ANALYTICS = false;
+						}
+
+						if (cookieTagmanager) {
+							//El usuario ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga:
+							data._COOKIES_ACCEPTED_TAGMANAGER = true;
+						} else {
+							//El usuario NO ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga
+							data._COOKIES_ACCEPTED_TAGMANAGER = false;
+						}
+
+						if (cookieGrecaptcha) {
+							//El usuario ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga:
+							data._COOKIES_ACCEPTED_RECAPTCHA = true;
+						} else {
+							//El usuario NO ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga
+							data._COOKIES_ACCEPTED_RECAPTCHA = false;
+						}
+					} else {
+						//El usuario NO ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga
+						
+							//El usuario NO ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga
+							data._COOKIES_ACCEPTED_GOOGLE = false;
+							
+							//El usuario NO ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga
+							data._COOKIES_ACCEPTED_ADS = false;
+
+							//El usuario NO ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga
+							data._COOKIES_ACCEPTED_ANALYTICS = false;
+						
+							//El usuario NO ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga
+							data._COOKIES_ACCEPTED_TAGMANAGER = false;
+						
+							//El usuario NO ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga
+							data._COOKIES_ACCEPTED_RECAPTCHA = false;
+						
+					}
+
+
+										p_ws8n7y70('Sesion', 'set', data, '').then((data) => {
+						//Cerramos la capa de aviso de las cookies
+						$('.fondo-espacio-cookies').hide();
+					});
+					
+					window.location.href = "https://www.pisapapeles.es/gestion_cookies";
+				});
+				aceptarSoloBasicas.on('click', function(event) {
+					var cookiesAceptadas = cookieCheck.is(':checked');
+					var cookieGoogle = cookieCheckGoogle.is(':checked');
+					var cookieAds = cookieCheckAds.is(':checked');
+					var cookieAnalytics = cookieCheckAnalytics.is(':checked');
+					var cookieTagmanager = cookieCheckTagmanager.is(':checked');
+					var cookieGrecaptcha = cookieCheckGrecaptcha.is(':checked');
+					var data = {};
+										data._COOKIES_ACCEPTED = true;
+					if (cookiesAceptadas) {
+						//El usuario ha aceptado las cookies no imprescindibles, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga:
+						if (cookieGoogle) {
+							//El usuario ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga:
+							data._COOKIES_ACCEPTED_GOOGLE = true;
+						} else {
+							//El usuario NO ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga
+							data._COOKIES_ACCEPTED_GOOGLE = false;
+						}
+
+						if (cookieGoogle) {
+							//El usuario ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga:
+							data._COOKIES_ACCEPTED_ADS = true;
+						} else {
+							//El usuario NO ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga
+							data._COOKIES_ACCEPTED_ADS = false;
+						}
+
+						if (cookieAnalytics) {
+							//El usuario ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga:
+							data._COOKIES_ACCEPTED_ANALYTICS = true;
+						} else {
+							//El usuario NO ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga
+							data._COOKIES_ACCEPTED_ANALYTICS = false;
+						}
+
+						if (cookieTagmanager) {
+							//El usuario ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga:
+							data._COOKIES_ACCEPTED_TAGMANAGER = true;
+						} else {
+							//El usuario NO ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga
+							data._COOKIES_ACCEPTED_TAGMANAGER = false;
+						}
+
+						if (cookieGrecaptcha) {
+							//El usuario ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga:
+							data._COOKIES_ACCEPTED_RECAPTCHA = true;
+						} else {
+							//El usuario NO ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga
+							data._COOKIES_ACCEPTED_RECAPTCHA = false;
+						}
+					} else {
+						//El usuario NO ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga
+						
+							//El usuario NO ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga
+							data._COOKIES_ACCEPTED_GOOGLE = false;
+							
+							//El usuario NO ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga
+							data._COOKIES_ACCEPTED_ADS = false;
+							
+							//El usuario NO ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga
+							data._COOKIES_ACCEPTED_ANALYTICS = false;
+						
+							//El usuario NO ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga
+							data._COOKIES_ACCEPTED_TAGMANAGER = false;
+						
+							//El usuario NO ha aceptado las cookies, tenemos que indicar a la sesión que así es para que lo tenga en cuenta en la siguiente carga
+							data._COOKIES_ACCEPTED_RECAPTCHA = false;
+						
+					}
+
+
+										p_ws8n7y70('Sesion', 'set', data, '').then((data) => {
+						//Cerramos la capa de aviso de las cookies
+						$('.fondo-espacio-cookies').hide();
+					});
+									});
+				botonAceptarGuardar.on('click', function(event) {
+					var cookiesAceptadas = cookieCheck.is(':checked');
+					var cookieGoogle = cookieCheckGoogle.is(':checked');
+					var cookieAds = cookieCheckAds.is(':checked');
+					var cookieAnalytics = cookieCheckAnalytics.is(':checked');
+					var cookieTagmanager = cookieCheckTagmanager.is(':checked');
+					var cookieGrecaptcha = cookieCheckGrecaptcha.is(':checked');
+					var data = {};
+										data._COOKIES_ACCEPTED = true;
+					data._COOKIES_ACCEPTED_GOOGLE = true;
+					data._COOKIES_ACCEPTED_ADS = true;
+					data._COOKIES_ACCEPTED_ANALYTICS = true;
+					data._COOKIES_ACCEPTED_TAGMANAGER = true;
+					data._COOKIES_ACCEPTED_RECAPTCHA = true;
+										p_ws8n7y70('Sesion', 'set', data, '').then((data) => {
+						//Cerramos la capa de aviso de las cookies
+						$('.fondo-espacio-cookies').hide();
+					});
+					
+				});
+				//controlamos si las que no son inmprescindibles se desmarcan que se desmarquen tambien todas las que penden de esta
+				cookieCheck.on('click', function(event) {
+					if ($(this).is(':checked')) {
+						cookieCheckGoogle.prop('checked', true);
+						cookieCheckAds.prop('checked', true);
+						cookieCheckAnalytics.prop('checked', true);
+						cookieCheckTagmanager.prop('checked', true);
+						cookieCheckGrecaptcha.prop('checked', true);
+						activados = 4;
+						desactivados = 0;
+					} else {
+						cookieCheckGoogle.prop('checked', false);
+						cookieCheckAds.prop('checked', false);
+						cookieCheckAnalytics.prop('checked', false);
+						cookieCheckTagmanager.prop('checked', false);
+						cookieCheckGrecaptcha.prop('checked', false);
+						activados = 0;
+						desactivados = 4;
+					}
+				});
+
+				const checkboxes = document.querySelectorAll('#check_tipo_cookie_google, #check_tipo_cookie_ads, #check_tipo_cookie_analytics, #check_tipo_cookie_googletagmanager, #check_tipo_cookie_grecaptcha');
+
+
+
+
+				// Agregar el evento de escucha a cada checkbox
+				checkboxes.forEach(checkbox => {
+					checkbox.addEventListener('change', function() {
+						if (this.checked) {
+							activados++;
+							desactivados--;
+						} else {
+							activados--;
+							desactivados++;
+						}
+
+						// Verificar si hay un checkboxes que esta activado
+						if (activados === 1) {
+							cookieCheck.prop('checked', true);
+						}
+
+						// Verificar si todos los checkboxes están desactivados
+						if (desactivados === 4) {
+							cookieCheck.prop('checked', false);
+						}
+					});
+				});
+
+
+			});
+		</script>
+	</div>
+</div>				</div>
+				<div data-update="admin" data-configuration="YTozOntzOjY6IndpZGdldCI7czo1OiJhZG1pbiI7czo4OiJmdW5jdGlvbiI7YToyOntzOjEyOiJ0ZW1wbGF0ZUZpbGUiO3M6OToiYWRtaW4ucGhwIjtzOjExOiJkYXRhX3VwZGF0ZSI7czo1OiJhZG1pbiI7fXM6ODoib3BjaW9uZXMiO047fQ==">
+								</div>
+<div class="preloader">
+	<div class="container" style="margin-left: 0px;margin-right: 0px;width: 100%">
+		<div class="section">
+			<div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+		</div>
+	</div>
+</div>
+<header>
+    <div class="busquedaCesta">
+        <div class="container">
+            <div class="row">
+                <div id="header_logo" class="col-xs-12 col-sm-4 col-md-3">
+		<a href="/" title="Imagen de nuestro logotipo" target="_self">
+			<img class="logo img-responsive" data-src="https://www.pisapapeles.es/upload/img/logotipos/1752669785__logo_completo.png" alt="Imagen de nuestro logotipo" id="6a16d9eae2246"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img class="logo img-responsive" src="https://www.pisapapeles.es/upload/img/logotipos/1752669785__logo_completo.png" alt="Imagen de nuestro logotipo" id="6a16d9eae2249"></noscript>
+		</a>
+	</div>				                <nav class="nav">
+                    <ul id="header_links">
+    <li><a href="https://www.pisapapeles.es/acceso" class="account" title="Botón para acceder al inicio de sesión de la web">Iniciar Sesión</a></li>
+    <li><a href="https://www.pisapapeles.es/registro" title="Botón para acceder al registro de la web" class="hidden-xs">Registrarse</a></li>
+</ul>                </nav>
+                <div id="sticky_top" class="col-xs-6 col-sm-12 col-md-9" style="margin-top: 24.5px; right: auto;">
+                    <button type="button" class="boton" data-toggle="collapse" data-target="#search_block_top"><i class="mdi mdi-magnify"></i></button>
+                    <div id="search_block_top" class="collapse">
+                        <div class="field-search">
+                                    <div class="buscador_simpleV2">
+                    <form method="post" action="https://www.pisapapeles.es/buscar" id="searchbox">
+        <div class="input-group-btn search_filter title_font">
+        <a href="https://www.pisapapeles.es/busqueda_avanzada" title="Ir a la búsqueda avanzada." class="b_avanzada" id="category_filter"><span>Búsqueda avanzada</span></a>
+    </div>
+    <input class="search_query ac_input" type="text" id="search_query_top" name="txt_busqueda" value="" placeholder="Autor, Título, Editorial" autocomplete="off">
+    <button type="submit" name="submit_search" title="Haz clic en este botón para realizar la búsqueda." class="boton button-search">
+        <i class="mdi mdi-magnify"></i>
+    </button>
+</form>
+<script id="script_nqd75f">
+    document.addEventListener('WSLE', function(event) {
+        var form = getLastHtmlObject('script_nqd75f');
+        $(form).on('submit', function(event){
+            //Si el formulario de búsqueda no cotiene nada, no avanzamos:
+            if(form.find('#search_query_top').val() == ''){
+                event.preventDefault();
+                form.find('#search_query_top').focus();
+            }
+        });
+    });
+</script>        </div>
+        
+                            </div>
+                    </div>
+                    <div class="shopping_cart_menu">
+	    <div class="cesta_desplegableV2">
+        <div class="webStoreDropDown" style="" id="_048217900_1779882474">    <div class="contenedor_cesta_desplegable">
+        <div class="contenedor_totales_cesta" data-update="bloque_total_cesta" data-configuration="YTozOntzOjY6IndpZGdldCI7czoxMjoiY2VzdGFfY29tcHJhIjtzOjg6ImZ1bmN0aW9uIjtzOjEzOiJ0b3RhbGVzX2Nlc3RhIjtzOjg6Im9wY2lvbmVzIjtPOjE0OiJPcGNpb25lc1dpZGdldCI6Mjp7czoxMzoiY29uZmlndXJhY2lvbiI7Tzo5OiJPYk9wdGlvbnMiOjI6e3M6MTI6InJ1dGFfZmljaGVybyI7czoxOToiY2FiZWNlcmFfbWluaV9jZXN0YSI7czoxMDoiZGF0YVVwZGF0ZSI7czoxODoiYmxvcXVlX3RvdGFsX2Nlc3RhIjt9czo5OiJlbGVtZW50b3MiO2E6MDp7fX19">
+</div>
+<div class="contenedor_totales_cesta" data-update="bloque_vaciar" data-configuration="YTozOntzOjY6IndpZGdldCI7czoxMjoiY2VzdGFfY29tcHJhIjtzOjg6ImZ1bmN0aW9uIjtzOjEzOiJ0b3RhbGVzX2Nlc3RhIjtzOjg6Im9wY2lvbmVzIjtPOjE0OiJPcGNpb25lc1dpZGdldCI6Mjp7czoxMzoiY29uZmlndXJhY2lvbiI7Tzo5OiJPYk9wdGlvbnMiOjI6e3M6MTI6InJ1dGFfZmljaGVybyI7czoxNzoidmFjaWFyX21pbmlfY2VzdGEiO3M6MTA6ImRhdGFVcGRhdGUiO3M6MTM6ImJsb3F1ZV92YWNpYXIiO31zOjk6ImVsZW1lbnRvcyI7YTowOnt9fX0=">
+    <div class="cesta_vaciar">
+        <a href="javascript:void(0);" title="Haz clic en este botón para vaciar tu esta de la compra." onclick="var cadena_consulta = '¿Desea vaciar la cesta por completo?\nEsta operación no tiene marcha atrás.';if (confirm(cadena_consulta)) {
+            emtpyCart('*=\'bloque_total_cesta\'|*=\'bloque_tipo_envio\'|*=\'bloque_lineas\'|*=\'bloque_restaurar\'|*=\'cart\'');
+            location.reload();
+            };">Vaciar</a>
+    </div>
+    </div>
+        <div class="cesta_restaurar" data-configuration="YTozOntzOjY6IndpZGdldCI7czoxMjoiY2VzdGFfY29tcHJhIjtzOjg6ImZ1bmN0aW9uIjtzOjE1OiJjZXN0YV9yZXN0YXVyYXIiO3M6ODoib3BjaW9uZXMiO086MTQ6Ik9wY2lvbmVzV2lkZ2V0IjoyOntzOjEzOiJjb25maWd1cmFjaW9uIjtPOjk6Ik9iT3B0aW9ucyI6Mjp7czoxNzoiZmljaGVyb19yZXN0YXVyYXIiO3M6MjA6InJlc3RhdXJhcl9taW5pX2Nlc3RhIjtzOjEwOiJkYXRhVXBkYXRlIjtzOjE2OiJibG9xdWVfcmVzdGF1cmFyIjt9czo5OiJlbGVtZW50b3MiO2E6MDp7fX19" data-update="bloque_restaurar">
+                    </div>
+                <div data-configuration="YTozOntzOjY6IndpZGdldCI7czoxMjoiY2VzdGFfY29tcHJhIjtzOjg6ImZ1bmN0aW9uIjtzOjEyOiJsaW5lYXNfY2VzdGEiO3M6ODoib3BjaW9uZXMiO086OToiT2JPcHRpb25zIjozOntzOjEzOiJmaWNoZXJvX2xpbmVhIjtzOjE2OiJsaW5lYV9taW5pX2Nlc3RhIjtzOjEwOiJkYXRhVXBkYXRlIjtzOjEzOiJibG9xdWVfbGluZWFzIjtzOjE2OiJkYXRhVXBkYXRlTGluZWFzIjtzOjEyOiJibG9xdWVfbGluZWEiO319" data-update="bloque_lineas">
+                        </div>
+            <div class="contenedor_totales_cesta" data-update="bloque_total_cesta" data-configuration="YTozOntzOjY6IndpZGdldCI7czoxMjoiY2VzdGFfY29tcHJhIjtzOjg6ImZ1bmN0aW9uIjtzOjEzOiJ0b3RhbGVzX2Nlc3RhIjtzOjg6Im9wY2lvbmVzIjtPOjE0OiJPcGNpb25lc1dpZGdldCI6Mjp7czoxMzoiY29uZmlndXJhY2lvbiI7Tzo5OiJPYk9wdGlvbnMiOjI6e3M6MTI6InJ1dGFfZmljaGVybyI7czoxODoidG90YWxlc19taW5pX2Nlc3RhIjtzOjEwOiJkYXRhVXBkYXRlIjtzOjE4OiJibG9xdWVfdG90YWxfY2VzdGEiO31zOjk6ImVsZW1lbnRvcyI7YTowOnt9fX0=">
+
+<div class="cart-prices">
+    <div class="cart-prices-line last-line"> 
+        <span class="price cart_block_total ajax_block_cart_total">0,00&euro;</span> 
+        <span>Total</span>
+    </div>
+</div>
+
+<div class="cart-buttons">
+    <a id="button_order_cart" class="boton" href="https://www.pisapapeles.es/cesta" title="Confirmar" rel="nofollow">
+        <span> Confirmar<i class="mdi mdi-chevron-right right"></i> </span>
+    </a>
+	<div class="cesta_vaciar">
+        <a href="javascript:void(0);" rel="nofollow" class="boton"  title="Vaciar" onclick="var cadena_consulta = '¿Desea vaciar la cesta por completo?\nEsta operación no tiene marcha atrás.';if (confirm(cadena_consulta)) {emtpyCart('*=\'bloque_total_cesta\'|*=\'bloque_tipo_envio\'|*=\'bloque_lineas\'|*=\'bloque_restaurar\'|*=\'cart\'');};" >Vaciar</a>
+	</div>
+</div></div>
+    </div>
+    </div>                <script id="script_048221800_1779882474">
+                    document.addEventListener('WSLE', function(event) {
+                        ;
+                        (function() {
+                            var componente__048217900_1779882474 = {centerH : false,centerV : false,transBackground : false,closeButton : false,inSpeed : 'slow',positionY : 'parent_b',positionX : 'parent_r',pivot : 'rt',type : 'dropDown'}
+;
+                            var elementObjetive = getLastHtmlObject('script_048221800_1779882474');
+                            var supercalifragilistico = 0;
+                            var index = componentList.add(elementObjetive, componente__048217900_1779882474);
+                        }());
+                    });
+                </script>
+	<div   class="lanzador_widget"  >
+<div class="contenedor_totales_cesta" data-update="bloque_total_cesta" data-configuration="YTozOntzOjY6IndpZGdldCI7czoxMjoiY2VzdGFfY29tcHJhIjtzOjg6ImZ1bmN0aW9uIjtzOjEzOiJ0b3RhbGVzX2Nlc3RhIjtzOjg6Im9wY2lvbmVzIjtPOjE0OiJPcGNpb25lc1dpZGdldCI6Mjp7czoxMzoiY29uZmlndXJhY2lvbiI7Tzo5OiJPYk9wdGlvbnMiOjI6e3M6MTI6InJ1dGFfZmljaGVybyI7czoxNzoiZGVzcGxlZ2Fkb3JfY2VzdGEiO3M6MTA6ImRhdGFVcGRhdGUiO3M6MTg6ImJsb3F1ZV90b3RhbF9jZXN0YSI7fXM6OToiZWxlbWVudG9zIjthOjA6e319fQ==">
+<a href="https://www.pisapapeles.es/cesta" title="Ver mi carrito de compra" class="btn_comprar_minicest" rel="nofollow">
+	<span class="mdi mdi-cart" aria-hidden="true"></span>
+	<span class="ajax_cart_no_product hidden-xs">Mi compra (0)</span>
+	<span class="ajax_cart_no_product visible-xs">(0)</span>
+ </a></div>
+	</div>
+	<script id="script_048246700_1779882474">
+	document.addEventListener('WSLE', function(event) {
+		//Cambiamos a una funcion anonima
+		;(function() {
+			var widgetObjetive = getLastHtmlObject('script_048246700_1779882474');
+			widgetObjetive.on('mouseenter', function(event){
+				componentList.show('_048217900_1779882474');
+			});
+		}());
+	});
+	</script>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contenedorNav">
+        <nav class="main-navigation">
+            <div class="container">
+                <div class="row">
+                    <div id="megaMenuWebStore">
+	<div class="categorias_menu col-xs-12">
+		<button type="button" class="boton_burguer navbar-toggle collapsed" data-toggle="collapse" data-target="#menu_hamburguesa" aria-expanded="false">
+			<i class="mdi mdi-menu"></i>
+		</button>
+		<div id="menu_hamburguesa" class="navbar-collapse collapse main-navigation">
+			<div class="megamenu" id="fieldmegamenu-main">
+				<ul>
+					            <li class="nivel_1 v-megamenuitem hasChildren boton_esca">
+        <a class="menu-title" href="https://www.pisapapeles.es/papeleria" title="Papelería">Papelería             
+        </a>
+                    <a href="#esca1" class="mdi mdi-minus-box collapsed " data-parent="#v-megamenu" data-toggle="collapse"></a>
+              
+          
+            <div id="esca1" role="navigation" class="submenu dd-section full-width fmsid1 clearfix collapse" aria-expanded="false" >
+        <div class="sections-contaier">
+            <div class="v-main-section full-width">
+                <div class="section-indent submenus">
+                    <ul class="v-main-section-links">
+                            <li class=" columna">
+        <a class="menu-item-title  olf" href="https://www.pisapapeles.es/escolar" title="Escolar">Escolar                 </a>
+        
+    </li>
+    				   
+			    <li class=" columna">
+        <a class="menu-item-title  olf" href="https://www.pisapapeles.es/oficina" title="Oficina">Oficina                 </a>
+        
+    </li>
+    				   
+			    <li class=" columna">
+        <a class="menu-item-title  olf" href="https://www.pisapapeles.es/mochilas" title="MOCHILAS">MOCHILAS                 </a>
+        
+    </li>
+    				   
+			
+                    </ul>
+                </div>
+            </div>
+         
+        </div>
+    </div>
+
+    
+    </li>
+   
+    				   
+			    <li class="nivel_1 v-megamenuitem hasChildren boton_esca">
+        <a class="menu-title" href="https://www.pisapapeles.es/libros" title="Libros">Libros             
+        </a>
+                    <a href="#esca5" class="mdi mdi-minus-box collapsed " data-parent="#v-megamenu" data-toggle="collapse"></a>
+              
+          
+            <div id="esca5" role="navigation" class="submenu dd-section full-width fmsid1 clearfix collapse" aria-expanded="false" >
+        <div class="sections-contaier">
+            <div class="v-main-section full-width">
+                <div class="section-indent submenus">
+                    <ul class="v-main-section-links">
+                            <li class=" columna">
+        <a class="menu-item-title  olf" href="https://www.pisapapeles.es/infantil" title="INFANTIL">INFANTIL                 </a>
+        
+    </li>
+    				   
+			    <li class=" columna">
+        <a class="menu-item-title  olf" href="https://www.pisapapeles.es/juvenil" title="JUVENIL">JUVENIL                 </a>
+        
+    </li>
+    				   
+			    <li class=" columna">
+        <a class="menu-item-title  olf" href="https://www.pisapapeles.es/adulto" title="ADULTO">ADULTO                 </a>
+        
+    </li>
+    				   
+			    <li class=" columna">
+        <a class="menu-item-title  olf" href="https://www.pisapapeles.es/comic" title="COMIC">COMIC                 </a>
+        
+    </li>
+    				   
+			    <li class=" columna">
+        <a class="menu-item-title  olf" href="https://www.pisapapeles.es/materias" title="MATERIAS">MATERIAS                 </a>
+        
+    </li>
+    				   
+			    <li class=" columna">
+        <a class="menu-item-title  olf" href="https://www.pisapapeles.es/local" title="LOCAL">LOCAL                 </a>
+        
+    </li>
+    				   
+			
+                    </ul>
+                </div>
+            </div>
+         
+        </div>
+    </div>
+
+    
+    </li>
+   
+    				   
+			    <li class="nivel_1 v-megamenuitem hasChildren boton_esca">
+        <a class="menu-title" href="https://www.pisapapeles.es/juegos" title="Juegos">Juegos             
+        </a>
+                    <a href="#esca12" class="mdi mdi-minus-box collapsed " data-parent="#v-megamenu" data-toggle="collapse"></a>
+              
+          
+            <div id="esca12" role="navigation" class="submenu dd-section full-width fmsid1 clearfix collapse" aria-expanded="false" >
+        <div class="sections-contaier">
+            <div class="v-main-section full-width">
+                <div class="section-indent submenus">
+                    <ul class="v-main-section-links">
+                            <li class=" columna">
+        <a class="menu-item-title  olf" href="https://www.pisapapeles.es/peques" title="PEQUES">PEQUES                 </a>
+        
+    </li>
+    				   
+			    <li class=" columna">
+        <a class="menu-item-title  olf" href="https://www.pisapapeles.es/familia" title="FAMILIA">FAMILIA                 </a>
+        
+    </li>
+    				   
+			    <li class=" columna">
+        <a class="menu-item-title  olf" href="https://www.pisapapeles.es/party" title="PARTY">PARTY                 </a>
+        
+    </li>
+    				   
+			    <li class=" columna">
+        <a class="menu-item-title  olf" href="https://www.pisapapeles.es/para-dos" title="PARA DOS">PARA DOS                 </a>
+        
+    </li>
+    				   
+			    <li class=" columna">
+        <a class="menu-item-title  olf" href="https://www.pisapapeles.es/jugones" title="JUGONES">JUGONES                 </a>
+        
+    </li>
+    				   
+			    <li class=" columna">
+        <a class="menu-item-title  olf" href="https://www.pisapapeles.es/clasicos" title="CLÁSICOS">CLÁSICOS                 </a>
+        
+    </li>
+    				   
+			
+                    </ul>
+                </div>
+            </div>
+         
+        </div>
+    </div>
+
+    
+    </li>
+   
+    				   
+			    <li class="nivel_1 v-megamenuitem  boton_esca">
+        <a class="menu-title" href="https://www.pisapapeles.es/regalo" title="REGALO">REGALO             
+        </a>
+          
+          
+        
+    </li>
+   
+    				   
+			    <li class="nivel_1 v-megamenuitem hasChildren boton_esca">
+        <a class="menu-title" href="https://www.pisapapeles.es/surprise-surprise" title="SURPRISE SURPRISE">SURPRISE SURPRISE             
+        </a>
+                    <a href="#esca20" class="mdi mdi-minus-box collapsed " data-parent="#v-megamenu" data-toggle="collapse"></a>
+              
+          
+            <div id="esca20" role="navigation" class="submenu dd-section full-width fmsid1 clearfix collapse" aria-expanded="false" >
+        <div class="sections-contaier">
+            <div class="v-main-section full-width">
+                <div class="section-indent submenus">
+                    <ul class="v-main-section-links">
+                            <li class=" columna">
+        <a class="menu-item-title  olf" href="https://www.pisapapeles.es/para-reir" title="PARA REIR">PARA REIR                 </a>
+        
+    </li>
+    				   
+			    <li class=" columna">
+        <a class="menu-item-title  olf" href="https://www.pisapapeles.es/para-sorprender" title="PARA SORPRENDER">PARA SORPRENDER                 </a>
+        
+    </li>
+    				   
+			    <li class=" columna">
+        <a class="menu-item-title  olf" href="https://www.pisapapeles.es/neustros-clientes-recomiendan" title="NEUSTROS CLIENTES RECOMIENDAN">NEUSTROS CLIENTES RECOMIENDAN                 </a>
+        
+    </li>
+    				   
+			
+                    </ul>
+                </div>
+            </div>
+         
+        </div>
+    </div>
+
+    
+    </li>
+   
+    				   
+			    <li class="nivel_1 v-megamenuitem hasChildren boton_esca">
+        <a class="menu-title" href="https://www.pisapapeles.es/outlet" title="OUTLET">OUTLET             
+        </a>
+                    <a href="#esca24" class="mdi mdi-minus-box collapsed " data-parent="#v-megamenu" data-toggle="collapse"></a>
+              
+          
+            <div id="esca24" role="navigation" class="submenu dd-section full-width fmsid1 clearfix collapse" aria-expanded="false" >
+        <div class="sections-contaier">
+            <div class="v-main-section full-width">
+                <div class="section-indent submenus">
+                    <ul class="v-main-section-links">
+                            <li class=" columna">
+        <a class="menu-item-title  olf" href="https://www.pisapapeles.es/outlet-papeleria" title="PAPELERÍA">PAPELERÍA                 </a>
+        
+    </li>
+    				   
+			    <li class=" columna">
+        <a class="menu-item-title  olf" href="https://www.pisapapeles.es/outlet-juegos" title="JUEGOS">JUEGOS                 </a>
+        
+    </li>
+    				   
+			    <li class=" columna">
+        <a class="menu-item-title  olf" href="https://www.pisapapeles.es/outlet-regalo" title="REGALO">REGALO                 </a>
+        
+    </li>
+    				   
+			
+                    </ul>
+                </div>
+            </div>
+         
+        </div>
+    </div>
+
+    
+    </li>
+   
+    				   
+			
+    
+    				</ul>
+			</div>
+		</div>
+	</div>
+</div>                </div>
+            </div>
+        </nav>
+    </div>
+</header>    <main>
+         
+    <section class="container">
+         <div class="slider">
+        <div class="carrousel">
+		
+            <div id="carrousel3" class="carousel slide" data-ride="carousel"  data-interval="7000">
+                                <div class="carousel-inner" role="listbox">
+                                                    <div class="item active">
+                                    <div class="container-fluid">
+        <div class = "izquierda"  style="background-image:url(https://www.pisapapeles.es/upload/img//1777541129__use_ai_image_apr_30_2026_11_22_09.jpg)" >
+    </div>
+    <div class = "derecha ">
+                            <a href="/surprise-surprise" title="PRIMAVERA" target="_blank">
+                                    <span>
+                        PRIMAVERA                    </span>
+                                    </a>
+                    </div>
+    </div>                                </div>
+                                                                            </div>
+                                    <a class="left carousel-control" href="#carrousel3" role="button" data-slide="prev">
+                        <span class="mdi mdi-chevron-left" aria-hidden="true"></span>
+<span class="sr-only">Anterior</span>                    </a>
+                    <a class="right carousel-control" href="#carrousel3" role="button" data-slide="next">
+                        <span class="mdi mdi-chevron-right" aria-hidden="true"></span>
+<span class="sr-only">Siguiente</span>
+                    </a>
+                                </div>
+                            <script>
+                    document.addEventListener('WSLE', function(event) {
+                        $('#carrousel3').carousel();
+                    });
+                </script>
+                        </div>
+            	</div> 
+	        <div id="center_column1" class="center_column col-xs-12 col-sm-12 col-md-9">
+            <div class="escaparate_home">
+                                    <h1 class="title_block title_font"> 
+                        <a href="https://www.pisapapeles.es/novedades" title="Novedades"> 
+                        
+                            Novedades 
+                        </a>
+                    </h1>
+                    <a href="https://www.pisapapeles.es/novedades" title="Ver todo de Novedades"><span>Ver todo</span></a>
+                    			<div class="lista_articulos">
+						<div id="ficha_producto_110327" class="contenedor_article" data-file="mini_ficha_semaforo" data-type="ficha_producto" data-update="ficha_110327" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxOToibWluaV9maWNoYV9zZW1hZm9ybyI7czo4OiJvcGNpb25lcyI7aToxMTAzMjc7fQ==">
+				<div class="mini_ficha_semaforo col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="mini_ficha">
+        <div class="left-block">
+                        <p class='alergenos'>
+                <script>
+   document.addEventListener('WSLE', function(event) {
+      $('.alergeno').tooltip();
+   });
+</script>            </p>
+                        <a href="https://www.pisapapeles.es/cumbres-borrascosas-p9788414065976" title="CUMBRES BORRASCOSAS">
+                        
+            <figure>
+	<img data-src="https://portadas.sinlib.es/0/256/70/9788414065976.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="9788414065976" data-zoom-image="https://portadas.sinlib.es/0/700/70/9788414065976.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 9788414065976" height="256" class="imagen_9788414065976 " data-posicion="-1" id="6a16d9eae22ea"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img src="https://portadas.sinlib.es/0/256/70/9788414065976.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="9788414065976" data-zoom-image="https://portadas.sinlib.es/0/700/70/9788414065976.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 9788414065976" height="256" class="imagen_9788414065976 " data-posicion="-1" id="6a16d9eae22eb"></noscript>
+	<figcaption></figcaption>
+</figure>
+        
+    				<div data-update="valoraciones" data-configuration="YTozOntzOjY6IndpZGdldCI7czoxMjoidmFsb3JhY2lvbmVzIjtzOjg6ImZ1bmN0aW9uIjthOjI6e3M6MTI6InRlbXBsYXRlRmlsZSI7czoyNzoidmFsb3JhY2lvbmVzX21pbmlfZmljaGEucGhwIjtzOjExOiJkYXRhX3VwZGF0ZSI7czoxMjoidmFsb3JhY2lvbmVzIjt9czo4OiJvcGNpb25lcyI7YToxOntzOjg6InByb2R1Y3RvIjtpOjExMDMyNzt9fQ==">
+				
+<div id="v9660f" class="rating-container-mini-ficha" >
+	
+	<div class="stars">
+		<div class="starts__group">
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+						<small>(0)</small>
+		</div>
+		
+	</div>
+	
+</div>
+				</div>
+            </a>
+        </div>
+        <div class="right-block">
+            <h5>
+                <a class="product-name" href="https://www.pisapapeles.es/cumbres-borrascosas-p9788414065976" title="CUMBRES BORRASCOSAS">
+                    CUMBRES BORRASCOSAS                </a>
+            </h5>
+            <div class="comments_note">
+                                    <a href="https://www.pisapapeles.es/autor/bronte,emily" title="Buscar artículos de BRONTE,EMILY">BRONTE,EMILY</a>
+                            </div>
+            <div class="price-rating">
+                <div class="semaforo">
+            <i class="mdi mdi-checkbox-blank-circle-outline " title="Hay bastantes existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle-outline " title="Hay bastantes existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle green" title="Hay bastantes existencias"></i>
+    </div>                <div class="content_price">
+                                                <p class="precio_actual">38,75&euro;</p>
+                                    </div>
+            </div>
+            <div class="pie_mFich">
+                            <div class="btnComprar" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxMDoiYnRuQ29tcHJhciI7czo4OiJvcGNpb25lcyI7TzoxNDoiT3BjaW9uZXNXaWRnZXQiOjI6e3M6MTM6ImNvbmZpZ3VyYWNpb24iO086OToiT2JPcHRpb25zIjozOntzOjg6ImFydGljdWxvIjtpOjExMDMyNztzOjEzOiJmaWNoZXJvX2JvdG9uIjtzOjIwOiJib3RvbkNvbXByYXJTZW1hZm9ybyI7czoxMToiZGF0YV91cGRhdGUiO3M6NDoiY2FydCI7fXM6OToiZWxlbWVudG9zIjthOjA6e319fQ==" data-update="cart">
+                
+
+      <a href="javascript:void(0);" rel="nofollow" class="boton btn_comprar title_font" onclick="addToBasket({codigo_articulo:110327, accion:'sumar', cantidad:1,button:$(this)}, true, '*=\'bloque_lineas\'|*=\'bloque_total_cesta\'|*=\'bloque_tipo_envio\'|*=\'cart\'|=\'ficha_110327\'');; generarEventoGTM();" title="Añadir a la cesta de la compra">
+            <i class="mdi mdi-shopping"></i> Comprar      </a>
+<script>function generarEventoGTM() {}</script>            </div>
+                        </div>
+        </div>
+    </div>
+</div>			</div>
+					<div id="ficha_producto_102324" class="contenedor_article" data-file="mini_ficha_semaforo" data-type="ficha_producto" data-update="ficha_102324" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxOToibWluaV9maWNoYV9zZW1hZm9ybyI7czo4OiJvcGNpb25lcyI7aToxMDIzMjQ7fQ==">
+				<div class="mini_ficha_semaforo col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="mini_ficha">
+        <div class="left-block">
+                        <p class='alergenos'>
+                <script>
+   document.addEventListener('WSLE', function(event) {
+      $('.alergeno').tooltip();
+   });
+</script>            </p>
+                        <a href="https://www.pisapapeles.es/las-brujas-de-venecia-p9788414064030" title="LAS BRUJAS DE VENECIA">
+                        
+            <figure>
+	<img data-src="https://portadas.sinlib.es/0/256/70/9788414064030.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="9788414064030" data-zoom-image="https://portadas.sinlib.es/0/700/70/9788414064030.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 9788414064030" height="256" class="imagen_9788414064030 " data-posicion="-1" id="6a16d9eae232c"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img src="https://portadas.sinlib.es/0/256/70/9788414064030.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="9788414064030" data-zoom-image="https://portadas.sinlib.es/0/700/70/9788414064030.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 9788414064030" height="256" class="imagen_9788414064030 " data-posicion="-1" id="6a16d9eae232d"></noscript>
+	<figcaption></figcaption>
+</figure>
+        
+    				<div data-update="valoraciones" data-configuration="YTozOntzOjY6IndpZGdldCI7czoxMjoidmFsb3JhY2lvbmVzIjtzOjg6ImZ1bmN0aW9uIjthOjI6e3M6MTI6InRlbXBsYXRlRmlsZSI7czoyNzoidmFsb3JhY2lvbmVzX21pbmlfZmljaGEucGhwIjtzOjExOiJkYXRhX3VwZGF0ZSI7czoxMjoidmFsb3JhY2lvbmVzIjt9czo4OiJvcGNpb25lcyI7YToxOntzOjg6InByb2R1Y3RvIjtpOjEwMjMyNDt9fQ==">
+				
+<div id="dpf771" class="rating-container-mini-ficha" >
+	
+	<div class="stars">
+		<div class="starts__group">
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+						<small>(0)</small>
+		</div>
+		
+	</div>
+	
+</div>
+				</div>
+            </a>
+        </div>
+        <div class="right-block">
+            <h5>
+                <a class="product-name" href="https://www.pisapapeles.es/las-brujas-de-venecia-p9788414064030" title="LAS BRUJAS DE VENECIA">
+                    LAS BRUJAS DE VENECIA                </a>
+            </h5>
+            <div class="comments_note">
+                                    <a href="https://www.pisapapeles.es/autor/purez,-subastien" title="Buscar artículos de PÚREZ, SÚBASTIEN">PÚREZ, SÚBASTIEN</a>
+                            </div>
+            <div class="price-rating">
+                <div class="semaforo">
+            <i class="mdi mdi-checkbox-blank-circle-outline " title="Hay bastantes existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle-outline " title="Hay bastantes existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle green" title="Hay bastantes existencias"></i>
+    </div>                <div class="content_price">
+                                                <p class="precio_actual">29,90&euro;</p>
+                                    </div>
+            </div>
+            <div class="pie_mFich">
+                            <div class="btnComprar" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxMDoiYnRuQ29tcHJhciI7czo4OiJvcGNpb25lcyI7TzoxNDoiT3BjaW9uZXNXaWRnZXQiOjI6e3M6MTM6ImNvbmZpZ3VyYWNpb24iO086OToiT2JPcHRpb25zIjozOntzOjg6ImFydGljdWxvIjtpOjEwMjMyNDtzOjEzOiJmaWNoZXJvX2JvdG9uIjtzOjIwOiJib3RvbkNvbXByYXJTZW1hZm9ybyI7czoxMToiZGF0YV91cGRhdGUiO3M6NDoiY2FydCI7fXM6OToiZWxlbWVudG9zIjthOjA6e319fQ==" data-update="cart">
+                
+
+      <a href="javascript:void(0);" rel="nofollow" class="boton btn_comprar title_font" onclick="addToBasket({codigo_articulo:102324, accion:'sumar', cantidad:1,button:$(this)}, true, '*=\'bloque_lineas\'|*=\'bloque_total_cesta\'|*=\'bloque_tipo_envio\'|*=\'cart\'|=\'ficha_102324\'');; generarEventoGTM();" title="Añadir a la cesta de la compra">
+            <i class="mdi mdi-shopping"></i> Comprar      </a>
+<script>function generarEventoGTM() {}</script>            </div>
+                        </div>
+        </div>
+    </div>
+</div>			</div>
+					<div id="ficha_producto_110326" class="contenedor_article" data-file="mini_ficha_semaforo" data-type="ficha_producto" data-update="ficha_110326" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxOToibWluaV9maWNoYV9zZW1hZm9ybyI7czo4OiJvcGNpb25lcyI7aToxMTAzMjY7fQ==">
+				<div class="mini_ficha_semaforo col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="mini_ficha">
+        <div class="left-block">
+                        <p class='alergenos'>
+                <script>
+   document.addEventListener('WSLE', function(event) {
+      $('.alergeno').tooltip();
+   });
+</script>            </p>
+                        <a href="https://www.pisapapeles.es/las-brujas-de-venecia-2-la-elegida-%28mariposa-negra%29-p9788414072875" title="LAS BRUJAS DE VENECIA 2 LA ELEGIDA (MARIPOSA NEGRA)">
+                        
+            <figure>
+	<img data-src="https://portadas.sinlib.es/0/256/70/9788414072875.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="9788414072875" data-zoom-image="https://portadas.sinlib.es/0/700/70/9788414072875.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 9788414072875" height="256" class="imagen_9788414072875 " data-posicion="-1" id="6a16d9eae2364"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img src="https://portadas.sinlib.es/0/256/70/9788414072875.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="9788414072875" data-zoom-image="https://portadas.sinlib.es/0/700/70/9788414072875.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 9788414072875" height="256" class="imagen_9788414072875 " data-posicion="-1" id="6a16d9eae2365"></noscript>
+	<figcaption></figcaption>
+</figure>
+        
+    				<div data-update="valoraciones" data-configuration="YTozOntzOjY6IndpZGdldCI7czoxMjoidmFsb3JhY2lvbmVzIjtzOjg6ImZ1bmN0aW9uIjthOjI6e3M6MTI6InRlbXBsYXRlRmlsZSI7czoyNzoidmFsb3JhY2lvbmVzX21pbmlfZmljaGEucGhwIjtzOjExOiJkYXRhX3VwZGF0ZSI7czoxMjoidmFsb3JhY2lvbmVzIjt9czo4OiJvcGNpb25lcyI7YToxOntzOjg6InByb2R1Y3RvIjtpOjExMDMyNjt9fQ==">
+				
+<div id="i9yz1y" class="rating-container-mini-ficha" >
+	
+	<div class="stars">
+		<div class="starts__group">
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+						<small>(0)</small>
+		</div>
+		
+	</div>
+	
+</div>
+				</div>
+            </a>
+        </div>
+        <div class="right-block">
+            <h5>
+                <a class="product-name" href="https://www.pisapapeles.es/las-brujas-de-venecia-2-la-elegida-%28mariposa-negra%29-p9788414072875" title="LAS BRUJAS DE VENECIA 2 LA ELEGIDA (MARIPOSA NEGRA)">
+                    LAS BRUJAS DE VENECIA 2 LA ELEGIDA (MARIPOSA NEGRA)                </a>
+            </h5>
+            <div class="comments_note">
+                                    <a href="https://www.pisapapeles.es/autor/perez,sebastien" title="Buscar artículos de PEREZ,SEBASTIEN">PEREZ,SEBASTIEN</a>
+                            </div>
+            <div class="price-rating">
+                <div class="semaforo">
+            <i class="mdi mdi-checkbox-blank-circle-outline " title="Hay bastantes existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle-outline " title="Hay bastantes existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle green" title="Hay bastantes existencias"></i>
+    </div>                <div class="content_price">
+                                                <p class="precio_actual">29,90&euro;</p>
+                                    </div>
+            </div>
+            <div class="pie_mFich">
+                            <div class="btnComprar" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxMDoiYnRuQ29tcHJhciI7czo4OiJvcGNpb25lcyI7TzoxNDoiT3BjaW9uZXNXaWRnZXQiOjI6e3M6MTM6ImNvbmZpZ3VyYWNpb24iO086OToiT2JPcHRpb25zIjozOntzOjg6ImFydGljdWxvIjtpOjExMDMyNjtzOjEzOiJmaWNoZXJvX2JvdG9uIjtzOjIwOiJib3RvbkNvbXByYXJTZW1hZm9ybyI7czoxMToiZGF0YV91cGRhdGUiO3M6NDoiY2FydCI7fXM6OToiZWxlbWVudG9zIjthOjA6e319fQ==" data-update="cart">
+                
+
+      <a href="javascript:void(0);" rel="nofollow" class="boton btn_comprar title_font" onclick="addToBasket({codigo_articulo:110326, accion:'sumar', cantidad:1,button:$(this)}, true, '*=\'bloque_lineas\'|*=\'bloque_total_cesta\'|*=\'bloque_tipo_envio\'|*=\'cart\'|=\'ficha_110326\'');; generarEventoGTM();" title="Añadir a la cesta de la compra">
+            <i class="mdi mdi-shopping"></i> Comprar      </a>
+<script>function generarEventoGTM() {}</script>            </div>
+                        </div>
+        </div>
+    </div>
+</div>			</div>
+					<div id="ficha_producto_110163" class="contenedor_article" data-file="mini_ficha_semaforo" data-type="ficha_producto" data-update="ficha_110163" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxOToibWluaV9maWNoYV9zZW1hZm9ybyI7czo4OiJvcGNpb25lcyI7aToxMTAxNjM7fQ==">
+				<div class="mini_ficha_semaforo col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="mini_ficha">
+        <div class="left-block">
+                        <p class='alergenos'>
+                <script>
+   document.addEventListener('WSLE', function(event) {
+      $('.alergeno').tooltip();
+   });
+</script>            </p>
+                        <a href="https://www.pisapapeles.es/enviado-especial-p9788420470078" title="ENVIADO ESPECIAL">
+                        
+            <figure>
+	<img data-src="https://portadas.sinlib.es/0/256/70/9788420470078.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="9788420470078" data-zoom-image="https://portadas.sinlib.es/0/700/70/9788420470078.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 9788420470078" height="256" class="imagen_9788420470078 " data-posicion="-1" id="6a16d9eae23aa"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img src="https://portadas.sinlib.es/0/256/70/9788420470078.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="9788420470078" data-zoom-image="https://portadas.sinlib.es/0/700/70/9788420470078.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 9788420470078" height="256" class="imagen_9788420470078 " data-posicion="-1" id="6a16d9eae23ab"></noscript>
+	<figcaption></figcaption>
+</figure>
+        
+    				<div data-update="valoraciones" data-configuration="YTozOntzOjY6IndpZGdldCI7czoxMjoidmFsb3JhY2lvbmVzIjtzOjg6ImZ1bmN0aW9uIjthOjI6e3M6MTI6InRlbXBsYXRlRmlsZSI7czoyNzoidmFsb3JhY2lvbmVzX21pbmlfZmljaGEucGhwIjtzOjExOiJkYXRhX3VwZGF0ZSI7czoxMjoidmFsb3JhY2lvbmVzIjt9czo4OiJvcGNpb25lcyI7YToxOntzOjg6InByb2R1Y3RvIjtpOjExMDE2Mzt9fQ==">
+				
+<div id="00wr7f" class="rating-container-mini-ficha" >
+	
+	<div class="stars">
+		<div class="starts__group">
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+						<small>(0)</small>
+		</div>
+		
+	</div>
+	
+</div>
+				</div>
+            </a>
+        </div>
+        <div class="right-block">
+            <h5>
+                <a class="product-name" href="https://www.pisapapeles.es/enviado-especial-p9788420470078" title="ENVIADO ESPECIAL">
+                    ENVIADO ESPECIAL                </a>
+            </h5>
+            <div class="comments_note">
+                                    <a href="https://www.pisapapeles.es/autor/perez-reverte,-arturo" title="Buscar artículos de Perez-reverte, Arturo">Perez-reverte, Arturo</a>
+                            </div>
+            <div class="price-rating">
+                <div class="semaforo">
+            <i class="mdi mdi-checkbox-blank-circle-outline " title="Hay bastantes existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle-outline " title="Hay bastantes existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle green" title="Hay bastantes existencias"></i>
+    </div>                <div class="content_price">
+                                                <p class="precio_actual">23,90&euro;</p>
+                                    </div>
+            </div>
+            <div class="pie_mFich">
+                            <div class="btnComprar" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxMDoiYnRuQ29tcHJhciI7czo4OiJvcGNpb25lcyI7TzoxNDoiT3BjaW9uZXNXaWRnZXQiOjI6e3M6MTM6ImNvbmZpZ3VyYWNpb24iO086OToiT2JPcHRpb25zIjozOntzOjg6ImFydGljdWxvIjtpOjExMDE2MztzOjEzOiJmaWNoZXJvX2JvdG9uIjtzOjIwOiJib3RvbkNvbXByYXJTZW1hZm9ybyI7czoxMToiZGF0YV91cGRhdGUiO3M6NDoiY2FydCI7fXM6OToiZWxlbWVudG9zIjthOjA6e319fQ==" data-update="cart">
+                
+
+      <a href="javascript:void(0);" rel="nofollow" class="boton btn_comprar title_font" onclick="addToBasket({codigo_articulo:110163, accion:'sumar', cantidad:1,button:$(this)}, true, '*=\'bloque_lineas\'|*=\'bloque_total_cesta\'|*=\'bloque_tipo_envio\'|*=\'cart\'|=\'ficha_110163\'');; generarEventoGTM();" title="Añadir a la cesta de la compra">
+            <i class="mdi mdi-shopping"></i> Comprar      </a>
+<script>function generarEventoGTM() {}</script>            </div>
+                        </div>
+        </div>
+    </div>
+</div>			</div>
+					<div id="ficha_producto_110168" class="contenedor_article" data-file="mini_ficha_semaforo" data-type="ficha_producto" data-update="ficha_110168" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxOToibWluaV9maWNoYV9zZW1hZm9ybyI7czo4OiJvcGNpb25lcyI7aToxMTAxNjg7fQ==">
+				<div class="mini_ficha_semaforo col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="mini_ficha">
+        <div class="left-block">
+                        <p class='alergenos'>
+                <script>
+   document.addEventListener('WSLE', function(event) {
+      $('.alergeno').tooltip();
+   });
+</script>            </p>
+                        <a href="https://www.pisapapeles.es/la-duquesa-bastarda-p9788466684255" title="LA DUQUESA BASTARDA">
+                        
+            <figure>
+	<img data-src="https://portadas.sinlib.es/0/256/70/9788466684255.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="9788466684255" data-zoom-image="https://portadas.sinlib.es/0/700/70/9788466684255.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 9788466684255" height="256" class="imagen_9788466684255 " data-posicion="-1" id="6a16d9eae23f0"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img src="https://portadas.sinlib.es/0/256/70/9788466684255.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="9788466684255" data-zoom-image="https://portadas.sinlib.es/0/700/70/9788466684255.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 9788466684255" height="256" class="imagen_9788466684255 " data-posicion="-1" id="6a16d9eae23f1"></noscript>
+	<figcaption></figcaption>
+</figure>
+        
+    				<div data-update="valoraciones" data-configuration="YTozOntzOjY6IndpZGdldCI7czoxMjoidmFsb3JhY2lvbmVzIjtzOjg6ImZ1bmN0aW9uIjthOjI6e3M6MTI6InRlbXBsYXRlRmlsZSI7czoyNzoidmFsb3JhY2lvbmVzX21pbmlfZmljaGEucGhwIjtzOjExOiJkYXRhX3VwZGF0ZSI7czoxMjoidmFsb3JhY2lvbmVzIjt9czo4OiJvcGNpb25lcyI7YToxOntzOjg6InByb2R1Y3RvIjtpOjExMDE2ODt9fQ==">
+				
+<div id="owvfm3" class="rating-container-mini-ficha" >
+	
+	<div class="stars">
+		<div class="starts__group">
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+						<small>(0)</small>
+		</div>
+		
+	</div>
+	
+</div>
+				</div>
+            </a>
+        </div>
+        <div class="right-block">
+            <h5>
+                <a class="product-name" href="https://www.pisapapeles.es/la-duquesa-bastarda-p9788466684255" title="LA DUQUESA BASTARDA">
+                    LA DUQUESA BASTARDA                </a>
+            </h5>
+            <div class="comments_note">
+                                    <a href="https://www.pisapapeles.es/autor/d.morales,-andrea" title="Buscar artículos de D.Morales, Andrea">D.Morales, Andrea</a>
+                            </div>
+            <div class="price-rating">
+                <div class="semaforo">
+            <i class="mdi mdi-checkbox-blank-circle-outline " title="Hay bastantes existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle-outline " title="Hay bastantes existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle green" title="Hay bastantes existencias"></i>
+    </div>                <div class="content_price">
+                                                <p class="precio_actual">22,90&euro;</p>
+                                    </div>
+            </div>
+            <div class="pie_mFich">
+                            <div class="btnComprar" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxMDoiYnRuQ29tcHJhciI7czo4OiJvcGNpb25lcyI7TzoxNDoiT3BjaW9uZXNXaWRnZXQiOjI6e3M6MTM6ImNvbmZpZ3VyYWNpb24iO086OToiT2JPcHRpb25zIjozOntzOjg6ImFydGljdWxvIjtpOjExMDE2ODtzOjEzOiJmaWNoZXJvX2JvdG9uIjtzOjIwOiJib3RvbkNvbXByYXJTZW1hZm9ybyI7czoxMToiZGF0YV91cGRhdGUiO3M6NDoiY2FydCI7fXM6OToiZWxlbWVudG9zIjthOjA6e319fQ==" data-update="cart">
+                
+
+      <a href="javascript:void(0);" rel="nofollow" class="boton btn_comprar title_font" onclick="addToBasket({codigo_articulo:110168, accion:'sumar', cantidad:1,button:$(this)}, true, '*=\'bloque_lineas\'|*=\'bloque_total_cesta\'|*=\'bloque_tipo_envio\'|*=\'cart\'|=\'ficha_110168\'');; generarEventoGTM();" title="Añadir a la cesta de la compra">
+            <i class="mdi mdi-shopping"></i> Comprar      </a>
+<script>function generarEventoGTM() {}</script>            </div>
+                        </div>
+        </div>
+    </div>
+</div>			</div>
+					<div id="ficha_producto_110159" class="contenedor_article" data-file="mini_ficha_semaforo" data-type="ficha_producto" data-update="ficha_110159" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxOToibWluaV9maWNoYV9zZW1hZm9ybyI7czo4OiJvcGNpb25lcyI7aToxMTAxNTk7fQ==">
+				<div class="mini_ficha_semaforo col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="mini_ficha">
+        <div class="left-block">
+                        <p class='alergenos'>
+                <script>
+   document.addEventListener('WSLE', function(event) {
+      $('.alergeno').tooltip();
+   });
+</script>            </p>
+                        <a href="https://www.pisapapeles.es/la-cara-oculta-de-los-santos-p9788401026799" title="LA CARA OCULTA DE LOS SANTOS">
+                        
+            <figure>
+	<img data-src="https://portadas.sinlib.es/0/256/70/9788401026799.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="9788401026799" data-zoom-image="https://portadas.sinlib.es/0/700/70/9788401026799.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 9788401026799" height="256" class="imagen_9788401026799 " data-posicion="-1" id="6a16d9eae242c"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img src="https://portadas.sinlib.es/0/256/70/9788401026799.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="9788401026799" data-zoom-image="https://portadas.sinlib.es/0/700/70/9788401026799.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 9788401026799" height="256" class="imagen_9788401026799 " data-posicion="-1" id="6a16d9eae242d"></noscript>
+	<figcaption></figcaption>
+</figure>
+        
+    				<div data-update="valoraciones" data-configuration="YTozOntzOjY6IndpZGdldCI7czoxMjoidmFsb3JhY2lvbmVzIjtzOjg6ImZ1bmN0aW9uIjthOjI6e3M6MTI6InRlbXBsYXRlRmlsZSI7czoyNzoidmFsb3JhY2lvbmVzX21pbmlfZmljaGEucGhwIjtzOjExOiJkYXRhX3VwZGF0ZSI7czoxMjoidmFsb3JhY2lvbmVzIjt9czo4OiJvcGNpb25lcyI7YToxOntzOjg6InByb2R1Y3RvIjtpOjExMDE1OTt9fQ==">
+				
+<div id="j70j0l" class="rating-container-mini-ficha" >
+	
+	<div class="stars">
+		<div class="starts__group">
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+						<small>(0)</small>
+		</div>
+		
+	</div>
+	
+</div>
+				</div>
+            </a>
+        </div>
+        <div class="right-block">
+            <h5>
+                <a class="product-name" href="https://www.pisapapeles.es/la-cara-oculta-de-los-santos-p9788401026799" title="LA CARA OCULTA DE LOS SANTOS">
+                    LA CARA OCULTA DE LOS SANTOS                </a>
+            </h5>
+            <div class="comments_note">
+                                    <a href="https://www.pisapapeles.es/autor/zavala,-jose-maria" title="Buscar artículos de Zavala, José María">Zavala, José María</a>
+                            </div>
+            <div class="price-rating">
+                <div class="semaforo">
+            <i class="mdi mdi-checkbox-blank-circle-outline " title="Quedan pocas existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle yellow" title="Quedan pocas existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle-outline " title="Quedan pocas existencias"></i>
+    </div>                <div class="content_price">
+                                                <p class="precio_actual">22,90&euro;</p>
+                                    </div>
+            </div>
+            <div class="pie_mFich">
+                            <div class="btnComprar" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxMDoiYnRuQ29tcHJhciI7czo4OiJvcGNpb25lcyI7TzoxNDoiT3BjaW9uZXNXaWRnZXQiOjI6e3M6MTM6ImNvbmZpZ3VyYWNpb24iO086OToiT2JPcHRpb25zIjozOntzOjg6ImFydGljdWxvIjtpOjExMDE1OTtzOjEzOiJmaWNoZXJvX2JvdG9uIjtzOjIwOiJib3RvbkNvbXByYXJTZW1hZm9ybyI7czoxMToiZGF0YV91cGRhdGUiO3M6NDoiY2FydCI7fXM6OToiZWxlbWVudG9zIjthOjA6e319fQ==" data-update="cart">
+                
+
+      <a href="javascript:void(0);" rel="nofollow" class="boton btn_comprar title_font" onclick="addToBasket({codigo_articulo:110159, accion:'sumar', cantidad:1,button:$(this)}, true, '*=\'bloque_lineas\'|*=\'bloque_total_cesta\'|*=\'bloque_tipo_envio\'|*=\'cart\'|=\'ficha_110159\'');; generarEventoGTM();" title="Añadir a la cesta de la compra">
+            <i class="mdi mdi-shopping"></i> Comprar      </a>
+<script>function generarEventoGTM() {}</script>            </div>
+                        </div>
+        </div>
+    </div>
+</div>			</div>
+					<div id="ficha_producto_110167" class="contenedor_article" data-file="mini_ficha_semaforo" data-type="ficha_producto" data-update="ficha_110167" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxOToibWluaV9maWNoYV9zZW1hZm9ybyI7czo4OiJvcGNpb25lcyI7aToxMTAxNjc7fQ==">
+				<div class="mini_ficha_semaforo col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="mini_ficha">
+        <div class="left-block">
+                        <p class='alergenos'>
+                <script>
+   document.addEventListener('WSLE', function(event) {
+      $('.alergeno').tooltip();
+   });
+</script>            </p>
+                        <a href="https://www.pisapapeles.es/el-hijo-de-la-piramide-p9788466684248" title="EL HIJO DE LA PIRAMIDE">
+                        
+            <figure>
+	<img data-src="https://portadas.sinlib.es/0/256/70/9788466684248.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="9788466684248" data-zoom-image="https://portadas.sinlib.es/0/700/70/9788466684248.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 9788466684248" height="256" class="imagen_9788466684248 " data-posicion="-1" id="6a16d9eae2484"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img src="https://portadas.sinlib.es/0/256/70/9788466684248.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="9788466684248" data-zoom-image="https://portadas.sinlib.es/0/700/70/9788466684248.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 9788466684248" height="256" class="imagen_9788466684248 " data-posicion="-1" id="6a16d9eae2485"></noscript>
+	<figcaption></figcaption>
+</figure>
+        
+    				<div data-update="valoraciones" data-configuration="YTozOntzOjY6IndpZGdldCI7czoxMjoidmFsb3JhY2lvbmVzIjtzOjg6ImZ1bmN0aW9uIjthOjI6e3M6MTI6InRlbXBsYXRlRmlsZSI7czoyNzoidmFsb3JhY2lvbmVzX21pbmlfZmljaGEucGhwIjtzOjExOiJkYXRhX3VwZGF0ZSI7czoxMjoidmFsb3JhY2lvbmVzIjt9czo4OiJvcGNpb25lcyI7YToxOntzOjg6InByb2R1Y3RvIjtpOjExMDE2Nzt9fQ==">
+				
+<div id="8e271u" class="rating-container-mini-ficha" >
+	
+	<div class="stars">
+		<div class="starts__group">
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+						<small>(0)</small>
+		</div>
+		
+	</div>
+	
+</div>
+				</div>
+            </a>
+        </div>
+        <div class="right-block">
+            <h5>
+                <a class="product-name" href="https://www.pisapapeles.es/el-hijo-de-la-piramide-p9788466684248" title="EL HIJO DE LA PIRAMIDE">
+                    EL HIJO DE LA PIRAMIDE                </a>
+            </h5>
+            <div class="comments_note">
+                                    <a href="https://www.pisapapeles.es/autor/cabanas,-antonio" title="Buscar artículos de Cabanas, Antonio">Cabanas, Antonio</a>
+                            </div>
+            <div class="price-rating">
+                <div class="semaforo">
+            <i class="mdi mdi-checkbox-blank-circle-outline " title="Hay bastantes existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle-outline " title="Hay bastantes existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle green" title="Hay bastantes existencias"></i>
+    </div>                <div class="content_price">
+                                                <p class="precio_actual">24,90&euro;</p>
+                                    </div>
+            </div>
+            <div class="pie_mFich">
+                            <div class="btnComprar" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxMDoiYnRuQ29tcHJhciI7czo4OiJvcGNpb25lcyI7TzoxNDoiT3BjaW9uZXNXaWRnZXQiOjI6e3M6MTM6ImNvbmZpZ3VyYWNpb24iO086OToiT2JPcHRpb25zIjozOntzOjg6ImFydGljdWxvIjtpOjExMDE2NztzOjEzOiJmaWNoZXJvX2JvdG9uIjtzOjIwOiJib3RvbkNvbXByYXJTZW1hZm9ybyI7czoxMToiZGF0YV91cGRhdGUiO3M6NDoiY2FydCI7fXM6OToiZWxlbWVudG9zIjthOjA6e319fQ==" data-update="cart">
+                
+
+      <a href="javascript:void(0);" rel="nofollow" class="boton btn_comprar title_font" onclick="addToBasket({codigo_articulo:110167, accion:'sumar', cantidad:1,button:$(this)}, true, '*=\'bloque_lineas\'|*=\'bloque_total_cesta\'|*=\'bloque_tipo_envio\'|*=\'cart\'|=\'ficha_110167\'');; generarEventoGTM();" title="Añadir a la cesta de la compra">
+            <i class="mdi mdi-shopping"></i> Comprar      </a>
+<script>function generarEventoGTM() {}</script>            </div>
+                        </div>
+        </div>
+    </div>
+</div>			</div>
+					<div id="ficha_producto_108647" class="contenedor_article" data-file="mini_ficha_semaforo" data-type="ficha_producto" data-update="ficha_108647" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxOToibWluaV9maWNoYV9zZW1hZm9ybyI7czo4OiJvcGNpb25lcyI7aToxMDg2NDc7fQ==">
+				<div class="mini_ficha_semaforo col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="mini_ficha">
+        <div class="left-block">
+                        <p class='alergenos'>
+                <script>
+   document.addEventListener('WSLE', function(event) {
+      $('.alergeno').tooltip();
+   });
+</script>            </p>
+                        <a href="https://www.pisapapeles.es/maite-p9788411077484" title="MAITE">
+                        
+            <figure>
+	<img data-src="https://portadas.sinlib.es/0/256/70/9788411077484.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="9788411077484" data-zoom-image="https://portadas.sinlib.es/0/700/70/9788411077484.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 9788411077484" height="256" class="imagen_9788411077484 " data-posicion="-1" id="6a16d9eae24c4"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img src="https://portadas.sinlib.es/0/256/70/9788411077484.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="9788411077484" data-zoom-image="https://portadas.sinlib.es/0/700/70/9788411077484.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 9788411077484" height="256" class="imagen_9788411077484 " data-posicion="-1" id="6a16d9eae24c5"></noscript>
+	<figcaption></figcaption>
+</figure>
+        
+    				<div data-update="valoraciones" data-configuration="YTozOntzOjY6IndpZGdldCI7czoxMjoidmFsb3JhY2lvbmVzIjtzOjg6ImZ1bmN0aW9uIjthOjI6e3M6MTI6InRlbXBsYXRlRmlsZSI7czoyNzoidmFsb3JhY2lvbmVzX21pbmlfZmljaGEucGhwIjtzOjExOiJkYXRhX3VwZGF0ZSI7czoxMjoidmFsb3JhY2lvbmVzIjt9czo4OiJvcGNpb25lcyI7YToxOntzOjg6InByb2R1Y3RvIjtpOjEwODY0Nzt9fQ==">
+				
+<div id="in2bsq" class="rating-container-mini-ficha" >
+	
+	<div class="stars">
+		<div class="starts__group">
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+						<small>(0)</small>
+		</div>
+		
+	</div>
+	
+</div>
+				</div>
+            </a>
+        </div>
+        <div class="right-block">
+            <h5>
+                <a class="product-name" href="https://www.pisapapeles.es/maite-p9788411077484" title="MAITE">
+                    MAITE                </a>
+            </h5>
+            <div class="comments_note">
+                                    <a href="https://www.pisapapeles.es/autor/aramburu,-fernando" title="Buscar artículos de Aramburu, Fernando">Aramburu, Fernando</a>
+                            </div>
+            <div class="price-rating">
+                <div class="semaforo">
+            <i class="mdi mdi-checkbox-blank-circle-outline " title="Quedan pocas existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle yellow" title="Quedan pocas existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle-outline " title="Quedan pocas existencias"></i>
+    </div>                <div class="content_price">
+                                                <p class="precio_actual">22,90&euro;</p>
+                                    </div>
+            </div>
+            <div class="pie_mFich">
+                            <div class="btnComprar" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxMDoiYnRuQ29tcHJhciI7czo4OiJvcGNpb25lcyI7TzoxNDoiT3BjaW9uZXNXaWRnZXQiOjI6e3M6MTM6ImNvbmZpZ3VyYWNpb24iO086OToiT2JPcHRpb25zIjozOntzOjg6ImFydGljdWxvIjtpOjEwODY0NztzOjEzOiJmaWNoZXJvX2JvdG9uIjtzOjIwOiJib3RvbkNvbXByYXJTZW1hZm9ybyI7czoxMToiZGF0YV91cGRhdGUiO3M6NDoiY2FydCI7fXM6OToiZWxlbWVudG9zIjthOjA6e319fQ==" data-update="cart">
+                
+
+      <a href="javascript:void(0);" rel="nofollow" class="boton btn_comprar title_font" onclick="addToBasket({codigo_articulo:108647, accion:'sumar', cantidad:1,button:$(this)}, true, '*=\'bloque_lineas\'|*=\'bloque_total_cesta\'|*=\'bloque_tipo_envio\'|*=\'cart\'|=\'ficha_108647\'');; generarEventoGTM();" title="Añadir a la cesta de la compra">
+            <i class="mdi mdi-shopping"></i> Comprar      </a>
+<script>function generarEventoGTM() {}</script>            </div>
+                        </div>
+        </div>
+    </div>
+</div>			</div>
+					</div>
+	            </div>
+            <div class="escaparate_home fondo_escaparate" style="background-image: url(https://www.pisapapeles.es/upload/img/banners/1753082971__fondo_escaparate.jpg);">
+                                    <h2 class="title_block title_font"> 
+                        <a href="https://www.pisapapeles.es/juegos" title="Juegos"> 
+                            Juegos   
+                        </a>
+                    </h2>
+                    <a href="https://www.pisapapeles.es/juegos" title="Ver todo de Juegos"><span>Ver todo</span></a>
+                    			<div class="lista_articulos">
+						<div id="ficha_producto_110109" class="contenedor_article" data-file="mini_ficha_semaforo" data-type="ficha_producto" data-update="_110109" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxOToibWluaV9maWNoYV9zZW1hZm9ybyI7czo4OiJvcGNpb25lcyI7aToxMTAxMDk7fQ==">
+				<div class="mini_ficha_semaforo col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="mini_ficha">
+        <div class="left-block">
+                        <p class='alergenos'>
+                <script>
+   document.addEventListener('WSLE', function(event) {
+      $('.alergeno').tooltip();
+   });
+</script>            </p>
+                        <a href="https://www.pisapapeles.es/asalto-al-castillo-p8412553360661" title="ASALTO AL CASTILLO">
+                        
+            <figure>
+	<img data-src="https://portadas.sinlib.es/0/256/70/8412553360661.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="8412553360661" data-zoom-image="https://portadas.sinlib.es/0/700/70/8412553360661.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 8412553360661" height="256" class="imagen_8412553360661 " data-posicion="-1" id="6a16d9eae24fa"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img src="https://portadas.sinlib.es/0/256/70/8412553360661.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="8412553360661" data-zoom-image="https://portadas.sinlib.es/0/700/70/8412553360661.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 8412553360661" height="256" class="imagen_8412553360661 " data-posicion="-1" id="6a16d9eae24fb"></noscript>
+	<figcaption></figcaption>
+</figure>
+        
+    				<div data-update="valoraciones" data-configuration="YTozOntzOjY6IndpZGdldCI7czoxMjoidmFsb3JhY2lvbmVzIjtzOjg6ImZ1bmN0aW9uIjthOjI6e3M6MTI6InRlbXBsYXRlRmlsZSI7czoyNzoidmFsb3JhY2lvbmVzX21pbmlfZmljaGEucGhwIjtzOjExOiJkYXRhX3VwZGF0ZSI7czoxMjoidmFsb3JhY2lvbmVzIjt9czo4OiJvcGNpb25lcyI7YToxOntzOjg6InByb2R1Y3RvIjtpOjExMDEwOTt9fQ==">
+				
+<div id="vscnid" class="rating-container-mini-ficha" >
+	
+	<div class="stars">
+		<div class="starts__group">
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+						<small>(0)</small>
+		</div>
+		
+	</div>
+	
+</div>
+				</div>
+            </a>
+        </div>
+        <div class="right-block">
+            <h5>
+                <a class="product-name" href="https://www.pisapapeles.es/asalto-al-castillo-p8412553360661" title="ASALTO AL CASTILLO">
+                    ASALTO AL CASTILLO                </a>
+            </h5>
+            <div class="comments_note">
+                                    <a href="https://www.pisapapeles.es/fabricante/" title="Buscar artículos fabricados por "></a>
+                            </div>
+            <div class="price-rating">
+                <div class="semaforo">
+            <i class="mdi mdi-checkbox-blank-circle-outline " title="Hay bastantes existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle-outline " title="Hay bastantes existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle green" title="Hay bastantes existencias"></i>
+    </div>                <div class="content_price">
+                                                <p class="precio_actual">24,95&euro;</p>
+                                    </div>
+            </div>
+            <div class="pie_mFich">
+                            <div class="btnComprar" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxMDoiYnRuQ29tcHJhciI7czo4OiJvcGNpb25lcyI7TzoxNDoiT3BjaW9uZXNXaWRnZXQiOjI6e3M6MTM6ImNvbmZpZ3VyYWNpb24iO086OToiT2JPcHRpb25zIjozOntzOjg6ImFydGljdWxvIjtpOjExMDEwOTtzOjEzOiJmaWNoZXJvX2JvdG9uIjtzOjIwOiJib3RvbkNvbXByYXJTZW1hZm9ybyI7czoxMToiZGF0YV91cGRhdGUiO3M6NDoiY2FydCI7fXM6OToiZWxlbWVudG9zIjthOjA6e319fQ==" data-update="cart">
+                
+
+      <a href="javascript:void(0);" rel="nofollow" class="boton btn_comprar title_font" onclick="addToBasket({codigo_articulo:110109, accion:'sumar', cantidad:1,button:$(this)}, true, '*=\'bloque_lineas\'|*=\'bloque_total_cesta\'|*=\'bloque_tipo_envio\'|*=\'cart\'|=\'ficha_110109\'');; generarEventoGTM();" title="Añadir a la cesta de la compra">
+            <i class="mdi mdi-shopping"></i> Comprar      </a>
+<script>function generarEventoGTM() {}</script>            </div>
+                        </div>
+        </div>
+    </div>
+</div>			</div>
+					<div id="ficha_producto_110112" class="contenedor_article" data-file="mini_ficha_semaforo" data-type="ficha_producto" data-update="_110112" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxOToibWluaV9maWNoYV9zZW1hZm9ybyI7czo4OiJvcGNpb25lcyI7aToxMTAxMTI7fQ==">
+				<div class="mini_ficha_semaforo col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="mini_ficha">
+        <div class="left-block">
+                        <p class='alergenos'>
+                <script>
+   document.addEventListener('WSLE', function(event) {
+      $('.alergeno').tooltip();
+   });
+</script>            </p>
+                        <a href="https://www.pisapapeles.es/camuflarte-p8412553360654" title="CAMUFLARTE">
+                        
+            <figure>
+	<img data-src="https://portadas.sinlib.es/0/256/70/8412553360654.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="8412553360654" data-zoom-image="https://portadas.sinlib.es/0/700/70/8412553360654.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 8412553360654" height="256" class="imagen_8412553360654 " data-posicion="-1" id="6a16d9eae252e"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img src="https://portadas.sinlib.es/0/256/70/8412553360654.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="8412553360654" data-zoom-image="https://portadas.sinlib.es/0/700/70/8412553360654.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 8412553360654" height="256" class="imagen_8412553360654 " data-posicion="-1" id="6a16d9eae252f"></noscript>
+	<figcaption></figcaption>
+</figure>
+        
+    				<div data-update="valoraciones" data-configuration="YTozOntzOjY6IndpZGdldCI7czoxMjoidmFsb3JhY2lvbmVzIjtzOjg6ImZ1bmN0aW9uIjthOjI6e3M6MTI6InRlbXBsYXRlRmlsZSI7czoyNzoidmFsb3JhY2lvbmVzX21pbmlfZmljaGEucGhwIjtzOjExOiJkYXRhX3VwZGF0ZSI7czoxMjoidmFsb3JhY2lvbmVzIjt9czo4OiJvcGNpb25lcyI7YToxOntzOjg6InByb2R1Y3RvIjtpOjExMDExMjt9fQ==">
+				
+<div id="_x7ng1" class="rating-container-mini-ficha" >
+	
+	<div class="stars">
+		<div class="starts__group">
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+						<small>(0)</small>
+		</div>
+		
+	</div>
+	
+</div>
+				</div>
+            </a>
+        </div>
+        <div class="right-block">
+            <h5>
+                <a class="product-name" href="https://www.pisapapeles.es/camuflarte-p8412553360654" title="CAMUFLARTE">
+                    CAMUFLARTE                </a>
+            </h5>
+            <div class="comments_note">
+                                    <a href="https://www.pisapapeles.es/fabricante/" title="Buscar artículos fabricados por "></a>
+                            </div>
+            <div class="price-rating">
+                <div class="semaforo">
+            <i class="mdi mdi-checkbox-blank-circle-outline " title="Hay bastantes existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle-outline " title="Hay bastantes existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle green" title="Hay bastantes existencias"></i>
+    </div>                <div class="content_price">
+                                                <p class="precio_actual">21,95&euro;</p>
+                                    </div>
+            </div>
+            <div class="pie_mFich">
+                            <div class="btnComprar" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxMDoiYnRuQ29tcHJhciI7czo4OiJvcGNpb25lcyI7TzoxNDoiT3BjaW9uZXNXaWRnZXQiOjI6e3M6MTM6ImNvbmZpZ3VyYWNpb24iO086OToiT2JPcHRpb25zIjozOntzOjg6ImFydGljdWxvIjtpOjExMDExMjtzOjEzOiJmaWNoZXJvX2JvdG9uIjtzOjIwOiJib3RvbkNvbXByYXJTZW1hZm9ybyI7czoxMToiZGF0YV91cGRhdGUiO3M6NDoiY2FydCI7fXM6OToiZWxlbWVudG9zIjthOjA6e319fQ==" data-update="cart">
+                
+
+      <a href="javascript:void(0);" rel="nofollow" class="boton btn_comprar title_font" onclick="addToBasket({codigo_articulo:110112, accion:'sumar', cantidad:1,button:$(this)}, true, '*=\'bloque_lineas\'|*=\'bloque_total_cesta\'|*=\'bloque_tipo_envio\'|*=\'cart\'|=\'ficha_110112\'');; generarEventoGTM();" title="Añadir a la cesta de la compra">
+            <i class="mdi mdi-shopping"></i> Comprar      </a>
+<script>function generarEventoGTM() {}</script>            </div>
+                        </div>
+        </div>
+    </div>
+</div>			</div>
+					<div id="ficha_producto_110113" class="contenedor_article" data-file="mini_ficha_semaforo" data-type="ficha_producto" data-update="_110113" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxOToibWluaV9maWNoYV9zZW1hZm9ybyI7czo4OiJvcGNpb25lcyI7aToxMTAxMTM7fQ==">
+				<div class="mini_ficha_semaforo col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="mini_ficha">
+        <div class="left-block">
+                        <p class='alergenos'>
+                <script>
+   document.addEventListener('WSLE', function(event) {
+      $('.alergeno').tooltip();
+   });
+</script>            </p>
+                        <a href="https://www.pisapapeles.es/cine-party-p8412553360586" title="CINE PARTY">
+                        
+            <figure>
+	<img data-src="https://portadas.sinlib.es/0/256/70/8412553360586.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="8412553360586" data-zoom-image="https://portadas.sinlib.es/0/700/70/8412553360586.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 8412553360586" height="256" class="imagen_8412553360586 " data-posicion="-1" id="6a16d9eae2589"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img src="https://portadas.sinlib.es/0/256/70/8412553360586.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="8412553360586" data-zoom-image="https://portadas.sinlib.es/0/700/70/8412553360586.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 8412553360586" height="256" class="imagen_8412553360586 " data-posicion="-1" id="6a16d9eae258a"></noscript>
+	<figcaption></figcaption>
+</figure>
+        
+    				<div data-update="valoraciones" data-configuration="YTozOntzOjY6IndpZGdldCI7czoxMjoidmFsb3JhY2lvbmVzIjtzOjg6ImZ1bmN0aW9uIjthOjI6e3M6MTI6InRlbXBsYXRlRmlsZSI7czoyNzoidmFsb3JhY2lvbmVzX21pbmlfZmljaGEucGhwIjtzOjExOiJkYXRhX3VwZGF0ZSI7czoxMjoidmFsb3JhY2lvbmVzIjt9czo4OiJvcGNpb25lcyI7YToxOntzOjg6InByb2R1Y3RvIjtpOjExMDExMzt9fQ==">
+				
+<div id="y1uxkj" class="rating-container-mini-ficha" >
+	
+	<div class="stars">
+		<div class="starts__group">
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+						<small>(0)</small>
+		</div>
+		
+	</div>
+	
+</div>
+				</div>
+            </a>
+        </div>
+        <div class="right-block">
+            <h5>
+                <a class="product-name" href="https://www.pisapapeles.es/cine-party-p8412553360586" title="CINE PARTY">
+                    CINE PARTY                </a>
+            </h5>
+            <div class="comments_note">
+                                    <a href="https://www.pisapapeles.es/fabricante/" title="Buscar artículos fabricados por "></a>
+                            </div>
+            <div class="price-rating">
+                <div class="semaforo">
+            <i class="mdi mdi-checkbox-blank-circle-outline " title="Hay bastantes existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle-outline " title="Hay bastantes existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle green" title="Hay bastantes existencias"></i>
+    </div>                <div class="content_price">
+                                                <p class="precio_actual">16,95&euro;</p>
+                                    </div>
+            </div>
+            <div class="pie_mFich">
+                            <div class="btnComprar" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxMDoiYnRuQ29tcHJhciI7czo4OiJvcGNpb25lcyI7TzoxNDoiT3BjaW9uZXNXaWRnZXQiOjI6e3M6MTM6ImNvbmZpZ3VyYWNpb24iO086OToiT2JPcHRpb25zIjozOntzOjg6ImFydGljdWxvIjtpOjExMDExMztzOjEzOiJmaWNoZXJvX2JvdG9uIjtzOjIwOiJib3RvbkNvbXByYXJTZW1hZm9ybyI7czoxMToiZGF0YV91cGRhdGUiO3M6NDoiY2FydCI7fXM6OToiZWxlbWVudG9zIjthOjA6e319fQ==" data-update="cart">
+                
+
+      <a href="javascript:void(0);" rel="nofollow" class="boton btn_comprar title_font" onclick="addToBasket({codigo_articulo:110113, accion:'sumar', cantidad:1,button:$(this)}, true, '*=\'bloque_lineas\'|*=\'bloque_total_cesta\'|*=\'bloque_tipo_envio\'|*=\'cart\'|=\'ficha_110113\'');; generarEventoGTM();" title="Añadir a la cesta de la compra">
+            <i class="mdi mdi-shopping"></i> Comprar      </a>
+<script>function generarEventoGTM() {}</script>            </div>
+                        </div>
+        </div>
+    </div>
+</div>			</div>
+					<div id="ficha_producto_110111" class="contenedor_article" data-file="mini_ficha_semaforo" data-type="ficha_producto" data-update="_110111" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxOToibWluaV9maWNoYV9zZW1hZm9ybyI7czo4OiJvcGNpb25lcyI7aToxMTAxMTE7fQ==">
+				<div class="mini_ficha_semaforo col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="mini_ficha">
+        <div class="left-block">
+                        <p class='alergenos'>
+                <script>
+   document.addEventListener('WSLE', function(event) {
+      $('.alergeno').tooltip();
+   });
+</script>            </p>
+                        <a href="https://www.pisapapeles.es/its-bananas--p8412553360692" title="IT´S BANANAS !">
+                        
+            <figure>
+	<img data-src="https://portadas.sinlib.es/0/256/70/8412553360692.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="8412553360692" data-zoom-image="https://portadas.sinlib.es/0/700/70/8412553360692.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 8412553360692" height="256" class="imagen_8412553360692 " data-posicion="-1" id="6a16d9eae25e4"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img src="https://portadas.sinlib.es/0/256/70/8412553360692.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="8412553360692" data-zoom-image="https://portadas.sinlib.es/0/700/70/8412553360692.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 8412553360692" height="256" class="imagen_8412553360692 " data-posicion="-1" id="6a16d9eae25e5"></noscript>
+	<figcaption></figcaption>
+</figure>
+        
+    				<div data-update="valoraciones" data-configuration="YTozOntzOjY6IndpZGdldCI7czoxMjoidmFsb3JhY2lvbmVzIjtzOjg6ImZ1bmN0aW9uIjthOjI6e3M6MTI6InRlbXBsYXRlRmlsZSI7czoyNzoidmFsb3JhY2lvbmVzX21pbmlfZmljaGEucGhwIjtzOjExOiJkYXRhX3VwZGF0ZSI7czoxMjoidmFsb3JhY2lvbmVzIjt9czo4OiJvcGNpb25lcyI7YToxOntzOjg6InByb2R1Y3RvIjtpOjExMDExMTt9fQ==">
+				
+<div id="0amv4f" class="rating-container-mini-ficha" >
+	
+	<div class="stars">
+		<div class="starts__group">
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+						<small>(0)</small>
+		</div>
+		
+	</div>
+	
+</div>
+				</div>
+            </a>
+        </div>
+        <div class="right-block">
+            <h5>
+                <a class="product-name" href="https://www.pisapapeles.es/its-bananas--p8412553360692" title="IT´S BANANAS !">
+                    IT´S BANANAS !                </a>
+            </h5>
+            <div class="comments_note">
+                                    <a href="https://www.pisapapeles.es/fabricante/" title="Buscar artículos fabricados por "></a>
+                            </div>
+            <div class="price-rating">
+                <div class="semaforo">
+            <i class="mdi mdi-checkbox-blank-circle-outline " title="Hay bastantes existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle-outline " title="Hay bastantes existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle green" title="Hay bastantes existencias"></i>
+    </div>                <div class="content_price">
+                                                <p class="precio_actual">21,95&euro;</p>
+                                    </div>
+            </div>
+            <div class="pie_mFich">
+                            <div class="btnComprar" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxMDoiYnRuQ29tcHJhciI7czo4OiJvcGNpb25lcyI7TzoxNDoiT3BjaW9uZXNXaWRnZXQiOjI6e3M6MTM6ImNvbmZpZ3VyYWNpb24iO086OToiT2JPcHRpb25zIjozOntzOjg6ImFydGljdWxvIjtpOjExMDExMTtzOjEzOiJmaWNoZXJvX2JvdG9uIjtzOjIwOiJib3RvbkNvbXByYXJTZW1hZm9ybyI7czoxMToiZGF0YV91cGRhdGUiO3M6NDoiY2FydCI7fXM6OToiZWxlbWVudG9zIjthOjA6e319fQ==" data-update="cart">
+                
+
+      <a href="javascript:void(0);" rel="nofollow" class="boton btn_comprar title_font" onclick="addToBasket({codigo_articulo:110111, accion:'sumar', cantidad:1,button:$(this)}, true, '*=\'bloque_lineas\'|*=\'bloque_total_cesta\'|*=\'bloque_tipo_envio\'|*=\'cart\'|=\'ficha_110111\'');; generarEventoGTM();" title="Añadir a la cesta de la compra">
+            <i class="mdi mdi-shopping"></i> Comprar      </a>
+<script>function generarEventoGTM() {}</script>            </div>
+                        </div>
+        </div>
+    </div>
+</div>			</div>
+					</div>
+	            </div>
+            <div class="escaparate_home">
+                                    <h3 class="title_block title_font"> 
+                        <a href="https://www.pisapapeles.es/libros" title="Libros"> 
+                            Libros 
+                        </a>
+                    </h3>
+                    <a href="https://www.pisapapeles.es/libros" title="Ver todo de Libros"><span>Ver todo</span></a>
+                    			<div class="lista_articulos">
+						<div id="ficha_producto_106299" class="contenedor_article" data-file="mini_ficha_semaforo" data-type="ficha_producto" data-update="ficha_106299" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxOToibWluaV9maWNoYV9zZW1hZm9ybyI7czo4OiJvcGNpb25lcyI7aToxMDYyOTk7fQ==">
+				<div class="mini_ficha_semaforo col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="mini_ficha">
+        <div class="left-block">
+                        <p class='alergenos'>
+                <script>
+   document.addEventListener('WSLE', function(event) {
+      $('.alergeno').tooltip();
+   });
+</script>            </p>
+                        <a href="https://www.pisapapeles.es/el-principito-p9788414065952" title="EL PRINCIPITO">
+                        
+            <figure>
+	<img data-src="https://portadas.sinlib.es/0/256/70/9788414065952.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="9788414065952" data-zoom-image="https://portadas.sinlib.es/0/700/70/9788414065952.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 9788414065952" height="256" class="imagen_9788414065952 " data-posicion="-1" id="6a16d9eae2682"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img src="https://portadas.sinlib.es/0/256/70/9788414065952.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="9788414065952" data-zoom-image="https://portadas.sinlib.es/0/700/70/9788414065952.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 9788414065952" height="256" class="imagen_9788414065952 " data-posicion="-1" id="6a16d9eae2683"></noscript>
+	<figcaption></figcaption>
+</figure>
+        
+    				<div data-update="valoraciones" data-configuration="YTozOntzOjY6IndpZGdldCI7czoxMjoidmFsb3JhY2lvbmVzIjtzOjg6ImZ1bmN0aW9uIjthOjI6e3M6MTI6InRlbXBsYXRlRmlsZSI7czoyNzoidmFsb3JhY2lvbmVzX21pbmlfZmljaGEucGhwIjtzOjExOiJkYXRhX3VwZGF0ZSI7czoxMjoidmFsb3JhY2lvbmVzIjt9czo4OiJvcGNpb25lcyI7YToxOntzOjg6InByb2R1Y3RvIjtpOjEwNjI5OTt9fQ==">
+				
+<div id="ze8jvn" class="rating-container-mini-ficha" >
+	
+	<div class="stars">
+		<div class="starts__group">
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+						<small>(0)</small>
+		</div>
+		
+	</div>
+	
+</div>
+				</div>
+            </a>
+        </div>
+        <div class="right-block">
+            <h5>
+                <a class="product-name" href="https://www.pisapapeles.es/el-principito-p9788414065952" title="EL PRINCIPITO">
+                    EL PRINCIPITO                </a>
+            </h5>
+            <div class="comments_note">
+                                    <a href="https://www.pisapapeles.es/autor/saint-exupery,-antoine-de" title="Buscar artículos de Saint-Exupéry, Antoine de">Saint-Exupéry, Antoine de</a>
+                            </div>
+            <div class="price-rating">
+                <div class="semaforo">
+            <i class="mdi mdi-checkbox-blank-circle-outline " title="Quedan pocas existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle yellow" title="Quedan pocas existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle-outline " title="Quedan pocas existencias"></i>
+    </div>                <div class="content_price">
+                                                <p class="precio_actual">31,70&euro;</p>
+                                    </div>
+            </div>
+            <div class="pie_mFich">
+                            <div class="btnComprar" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxMDoiYnRuQ29tcHJhciI7czo4OiJvcGNpb25lcyI7TzoxNDoiT3BjaW9uZXNXaWRnZXQiOjI6e3M6MTM6ImNvbmZpZ3VyYWNpb24iO086OToiT2JPcHRpb25zIjozOntzOjg6ImFydGljdWxvIjtpOjEwNjI5OTtzOjEzOiJmaWNoZXJvX2JvdG9uIjtzOjIwOiJib3RvbkNvbXByYXJTZW1hZm9ybyI7czoxMToiZGF0YV91cGRhdGUiO3M6NDoiY2FydCI7fXM6OToiZWxlbWVudG9zIjthOjA6e319fQ==" data-update="cart">
+                
+
+      <a href="javascript:void(0);" rel="nofollow" class="boton btn_comprar title_font" onclick="addToBasket({codigo_articulo:106299, accion:'sumar', cantidad:1,button:$(this)}, true, '*=\'bloque_lineas\'|*=\'bloque_total_cesta\'|*=\'bloque_tipo_envio\'|*=\'cart\'|=\'ficha_106299\'');; generarEventoGTM();" title="Añadir a la cesta de la compra">
+            <i class="mdi mdi-shopping"></i> Comprar      </a>
+<script>function generarEventoGTM() {}</script>            </div>
+                        </div>
+        </div>
+    </div>
+</div>			</div>
+					<div id="ficha_producto_110169" class="contenedor_article" data-file="mini_ficha_semaforo" data-type="ficha_producto" data-update="ficha_110169" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxOToibWluaV9maWNoYV9zZW1hZm9ybyI7czo4OiJvcGNpb25lcyI7aToxMTAxNjk7fQ==">
+				<div class="mini_ficha_semaforo col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="mini_ficha">
+        <div class="left-block">
+                        <p class='alergenos'>
+                <script>
+   document.addEventListener('WSLE', function(event) {
+      $('.alergeno').tooltip();
+   });
+</script>            </p>
+                        <a href="https://www.pisapapeles.es/la-vida-se-entrena-cada-dia-p9788466682961" title="LA VIDA SE ENTRENA CADA DIA">
+                        
+            <figure>
+	<img data-src="https://portadas.sinlib.es/0/256/70/9788466682961.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="9788466682961" data-zoom-image="https://portadas.sinlib.es/0/700/70/9788466682961.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 9788466682961" height="256" class="imagen_9788466682961 " data-posicion="-1" id="6a16d9eae26c7"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img src="https://portadas.sinlib.es/0/256/70/9788466682961.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="9788466682961" data-zoom-image="https://portadas.sinlib.es/0/700/70/9788466682961.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 9788466682961" height="256" class="imagen_9788466682961 " data-posicion="-1" id="6a16d9eae26c8"></noscript>
+	<figcaption></figcaption>
+</figure>
+        
+    				<div data-update="valoraciones" data-configuration="YTozOntzOjY6IndpZGdldCI7czoxMjoidmFsb3JhY2lvbmVzIjtzOjg6ImZ1bmN0aW9uIjthOjI6e3M6MTI6InRlbXBsYXRlRmlsZSI7czoyNzoidmFsb3JhY2lvbmVzX21pbmlfZmljaGEucGhwIjtzOjExOiJkYXRhX3VwZGF0ZSI7czoxMjoidmFsb3JhY2lvbmVzIjt9czo4OiJvcGNpb25lcyI7YToxOntzOjg6InByb2R1Y3RvIjtpOjExMDE2OTt9fQ==">
+				
+<div id="6ypxv9" class="rating-container-mini-ficha" >
+	
+	<div class="stars">
+		<div class="starts__group">
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+						<small>(0)</small>
+		</div>
+		
+	</div>
+	
+</div>
+				</div>
+            </a>
+        </div>
+        <div class="right-block">
+            <h5>
+                <a class="product-name" href="https://www.pisapapeles.es/la-vida-se-entrena-cada-dia-p9788466682961" title="LA VIDA SE ENTRENA CADA DIA">
+                    LA VIDA SE ENTRENA CADA DIA                </a>
+            </h5>
+            <div class="comments_note">
+                                    <a href="https://www.pisapapeles.es/autor/de-la-fuente,-luis" title="Buscar artículos de De La Fuente, Luis">De La Fuente, Luis</a>
+                            </div>
+            <div class="price-rating">
+                <div class="semaforo">
+            <i class="mdi mdi-checkbox-blank-circle-outline " title="Quedan pocas existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle yellow" title="Quedan pocas existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle-outline " title="Quedan pocas existencias"></i>
+    </div>                <div class="content_price">
+                                                <p class="precio_actual">22,90&euro;</p>
+                                    </div>
+            </div>
+            <div class="pie_mFich">
+                            <div class="btnComprar" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxMDoiYnRuQ29tcHJhciI7czo4OiJvcGNpb25lcyI7TzoxNDoiT3BjaW9uZXNXaWRnZXQiOjI6e3M6MTM6ImNvbmZpZ3VyYWNpb24iO086OToiT2JPcHRpb25zIjozOntzOjg6ImFydGljdWxvIjtpOjExMDE2OTtzOjEzOiJmaWNoZXJvX2JvdG9uIjtzOjIwOiJib3RvbkNvbXByYXJTZW1hZm9ybyI7czoxMToiZGF0YV91cGRhdGUiO3M6NDoiY2FydCI7fXM6OToiZWxlbWVudG9zIjthOjA6e319fQ==" data-update="cart">
+                
+
+      <a href="javascript:void(0);" rel="nofollow" class="boton btn_comprar title_font" onclick="addToBasket({codigo_articulo:110169, accion:'sumar', cantidad:1,button:$(this)}, true, '*=\'bloque_lineas\'|*=\'bloque_total_cesta\'|*=\'bloque_tipo_envio\'|*=\'cart\'|=\'ficha_110169\'');; generarEventoGTM();" title="Añadir a la cesta de la compra">
+            <i class="mdi mdi-shopping"></i> Comprar      </a>
+<script>function generarEventoGTM() {}</script>            </div>
+                        </div>
+        </div>
+    </div>
+</div>			</div>
+					<div id="ficha_producto_110069" class="contenedor_article" data-file="mini_ficha_semaforo" data-type="ficha_producto" data-update="ficha_110069" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxOToibWluaV9maWNoYV9zZW1hZm9ybyI7czo4OiJvcGNpb25lcyI7aToxMTAwNjk7fQ==">
+				<div class="mini_ficha_semaforo col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="mini_ficha">
+        <div class="left-block">
+                        <p class='alergenos'>
+                <script>
+   document.addEventListener('WSLE', function(event) {
+      $('.alergeno').tooltip();
+   });
+</script>            </p>
+                        <a href="https://www.pisapapeles.es/vida%2c-obra-y-martirio-de-federico-garc-a-lorca-p9791387921798" title="VIDA, OBRA Y MARTIRIO DE FEDERICO GARC-A LORCA">
+                        
+            <figure>
+	<img data-src="https://portadas.sinlib.es/0/256/70/9791387921798.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="9791387921798" data-zoom-image="https://portadas.sinlib.es/0/700/70/9791387921798.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 9791387921798" height="256" class="imagen_9791387921798 " data-posicion="-1" id="6a16d9eae26f9"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img src="https://portadas.sinlib.es/0/256/70/9791387921798.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="9791387921798" data-zoom-image="https://portadas.sinlib.es/0/700/70/9791387921798.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 9791387921798" height="256" class="imagen_9791387921798 " data-posicion="-1" id="6a16d9eae26fa"></noscript>
+	<figcaption></figcaption>
+</figure>
+        
+    				<div data-update="valoraciones" data-configuration="YTozOntzOjY6IndpZGdldCI7czoxMjoidmFsb3JhY2lvbmVzIjtzOjg6ImZ1bmN0aW9uIjthOjI6e3M6MTI6InRlbXBsYXRlRmlsZSI7czoyNzoidmFsb3JhY2lvbmVzX21pbmlfZmljaGEucGhwIjtzOjExOiJkYXRhX3VwZGF0ZSI7czoxMjoidmFsb3JhY2lvbmVzIjt9czo4OiJvcGNpb25lcyI7YToxOntzOjg6InByb2R1Y3RvIjtpOjExMDA2OTt9fQ==">
+				
+<div id="oqx5kw" class="rating-container-mini-ficha" >
+	
+	<div class="stars">
+		<div class="starts__group">
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+						<small>(0)</small>
+		</div>
+		
+	</div>
+	
+</div>
+				</div>
+            </a>
+        </div>
+        <div class="right-block">
+            <h5>
+                <a class="product-name" href="https://www.pisapapeles.es/vida%2c-obra-y-martirio-de-federico-garc-a-lorca-p9791387921798" title="VIDA, OBRA Y MARTIRIO DE FEDERICO GARC-A LORCA">
+                    VIDA, OBRA Y MARTIRIO DE FEDERICO GARC-A LORCA                </a>
+            </h5>
+            <div class="comments_note">
+                                    <a href="https://www.pisapapeles.es/autor/ian-gibson,-quique-palomo" title="Buscar artículos de IAN GIBSON, QUIQUE PALOMO">IAN GIBSON, QUIQUE PALOMO</a>
+                            </div>
+            <div class="price-rating">
+                <div class="semaforo">
+            <i class="mdi mdi-checkbox-blank-circle-outline " title="Hay bastantes existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle-outline " title="Hay bastantes existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle green" title="Hay bastantes existencias"></i>
+    </div>                <div class="content_price">
+                                                <p class="precio_actual">20,00&euro;</p>
+                                    </div>
+            </div>
+            <div class="pie_mFich">
+                            <div class="btnComprar" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxMDoiYnRuQ29tcHJhciI7czo4OiJvcGNpb25lcyI7TzoxNDoiT3BjaW9uZXNXaWRnZXQiOjI6e3M6MTM6ImNvbmZpZ3VyYWNpb24iO086OToiT2JPcHRpb25zIjozOntzOjg6ImFydGljdWxvIjtpOjExMDA2OTtzOjEzOiJmaWNoZXJvX2JvdG9uIjtzOjIwOiJib3RvbkNvbXByYXJTZW1hZm9ybyI7czoxMToiZGF0YV91cGRhdGUiO3M6NDoiY2FydCI7fXM6OToiZWxlbWVudG9zIjthOjA6e319fQ==" data-update="cart">
+                
+
+      <a href="javascript:void(0);" rel="nofollow" class="boton btn_comprar title_font" onclick="addToBasket({codigo_articulo:110069, accion:'sumar', cantidad:1,button:$(this)}, true, '*=\'bloque_lineas\'|*=\'bloque_total_cesta\'|*=\'bloque_tipo_envio\'|*=\'cart\'|=\'ficha_110069\'');; generarEventoGTM();" title="Añadir a la cesta de la compra">
+            <i class="mdi mdi-shopping"></i> Comprar      </a>
+<script>function generarEventoGTM() {}</script>            </div>
+                        </div>
+        </div>
+    </div>
+</div>			</div>
+					<div id="ficha_producto_94362" class="contenedor_article" data-file="mini_ficha_semaforo" data-type="ficha_producto" data-update="ficha_94362" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxOToibWluaV9maWNoYV9zZW1hZm9ybyI7czo4OiJvcGNpb25lcyI7aTo5NDM2Mjt9">
+				<div class="mini_ficha_semaforo col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="mini_ficha">
+        <div class="left-block">
+                        <p class='alergenos'>
+                <script>
+   document.addEventListener('WSLE', function(event) {
+      $('.alergeno').tooltip();
+   });
+</script>            </p>
+                        <a href="https://www.pisapapeles.es/logicomix-p9788419409720" title="LOGICOMIX">
+                        
+            <figure>
+	<img data-src="https://portadas.sinlib.es/0/256/70/9788419409720.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="9788419409720" data-zoom-image="https://portadas.sinlib.es/0/700/70/9788419409720.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 9788419409720" height="256" class="imagen_9788419409720 " data-posicion="-1" id="6a16d9eae272d"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img src="https://portadas.sinlib.es/0/256/70/9788419409720.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-ean="9788419409720" data-zoom-image="https://portadas.sinlib.es/0/700/70/9788419409720.jpg?cliente=759&cod_instalacion=PISA&fichero_no_foto=pisapapeles_PISA.jpg" data-multiphoto="0" alt="Imagen del producto 9788419409720" height="256" class="imagen_9788419409720 " data-posicion="-1" id="6a16d9eae272e"></noscript>
+	<figcaption></figcaption>
+</figure>
+        
+    				<div data-update="valoraciones" data-configuration="YTozOntzOjY6IndpZGdldCI7czoxMjoidmFsb3JhY2lvbmVzIjtzOjg6ImZ1bmN0aW9uIjthOjI6e3M6MTI6InRlbXBsYXRlRmlsZSI7czoyNzoidmFsb3JhY2lvbmVzX21pbmlfZmljaGEucGhwIjtzOjExOiJkYXRhX3VwZGF0ZSI7czoxMjoidmFsb3JhY2lvbmVzIjt9czo4OiJvcGNpb25lcyI7YToxOntzOjg6InByb2R1Y3RvIjtpOjk0MzYyO319">
+				
+<div id="b5quoc" class="rating-container-mini-ficha" >
+	
+	<div class="stars">
+		<div class="starts__group">
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+							<i class="m-r-10 mdi mdi-star-outline  estrella-minificha"></i>
+						<small>(0)</small>
+		</div>
+		
+	</div>
+	
+</div>
+				</div>
+            </a>
+        </div>
+        <div class="right-block">
+            <h5>
+                <a class="product-name" href="https://www.pisapapeles.es/logicomix-p9788419409720" title="LOGICOMIX">
+                    LOGICOMIX                </a>
+            </h5>
+            <div class="comments_note">
+                                    <a href="https://www.pisapapeles.es/autor/doxiadis,-apostolos;papadimitriou,-christos-h.;papadatos,-al" title="Buscar artículos de Doxiadis, Apostolos;Papadimitriou, Christos H.;Papadatos, Al">Doxiadis, Apostolos;Papadimitriou, Christos H.;Papadatos, Al</a>
+                            </div>
+            <div class="price-rating">
+                <div class="semaforo">
+            <i class="mdi mdi-checkbox-blank-circle-outline " title="Quedan pocas existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle yellow" title="Quedan pocas existencias"></i>
+        <i class="mdi mdi-checkbox-blank-circle-outline " title="Quedan pocas existencias"></i>
+    </div>                <div class="content_price">
+                                                <p class="precio_actual">32,95&euro;</p>
+                                    </div>
+            </div>
+            <div class="pie_mFich">
+                            <div class="btnComprar" data-configuration="YTozOntzOjY6IndpZGdldCI7czo4OiJhcnRpY3VsbyI7czo4OiJmdW5jdGlvbiI7czoxMDoiYnRuQ29tcHJhciI7czo4OiJvcGNpb25lcyI7TzoxNDoiT3BjaW9uZXNXaWRnZXQiOjI6e3M6MTM6ImNvbmZpZ3VyYWNpb24iO086OToiT2JPcHRpb25zIjozOntzOjg6ImFydGljdWxvIjtpOjk0MzYyO3M6MTM6ImZpY2hlcm9fYm90b24iO3M6MjA6ImJvdG9uQ29tcHJhclNlbWFmb3JvIjtzOjExOiJkYXRhX3VwZGF0ZSI7czo0OiJjYXJ0Ijt9czo5OiJlbGVtZW50b3MiO2E6MDp7fX19" data-update="cart">
+                
+
+      <a href="javascript:void(0);" rel="nofollow" class="boton btn_comprar title_font" onclick="addToBasket({codigo_articulo:94362, accion:'sumar', cantidad:1,button:$(this)}, true, '*=\'bloque_lineas\'|*=\'bloque_total_cesta\'|*=\'bloque_tipo_envio\'|*=\'cart\'|=\'ficha_94362\'');; generarEventoGTM();" title="Añadir a la cesta de la compra">
+            <i class="mdi mdi-shopping"></i> Comprar      </a>
+<script>function generarEventoGTM() {}</script>            </div>
+                        </div>
+        </div>
+    </div>
+</div>			</div>
+					</div>
+	            </div>
+            <div class="escaparate_home">
+                            </div>
+        </div>
+        <div id="left_column1" class="aside_bottom col-xs-12 col-sm-12 col-md-3">
+            <div class="columna-blog col-xs-12 col-md-12 col-lg-12">
+                
+<div class="banner_descripcion block">
+    <div class="hover_banner_img1">
+					<figure id="figure_54">
+				<img alt="RECORTABLES COFRADES" data-src="https://www.pisapapeles.es/upload/img//1771580977__1000344700.jpg" id="6a16d9eae2754"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img alt="RECORTABLES COFRADES" src="https://www.pisapapeles.es/upload/img//1771580977__1000344700.jpg" id="6a16d9eae2755"></noscript>
+									<figcaption>RECORTABLES COFRADES</figcaption>
+										<p>Volvemos a tener todos los recortables cofrades, incluidas las novedades de La Borriquita y Los Estudiantes.</p>
+								</figure>
+			</div>
+</div>				
+<div class="banner_descripcion block">
+    <div class="hover_banner_img1">
+				<a href="/dixit-disney-p3558380106906" title="DIXIT Disney Edition" target="_self">
+					<figure id="figure_55">
+				<img alt="DIXIT Disney Edition" data-src="https://www.pisapapeles.es/upload/img/banners/1753084477__dixit.jpg" id="6a16d9eae2783"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img alt="DIXIT Disney Edition" src="https://www.pisapapeles.es/upload/img/banners/1753084477__dixit.jpg" id="6a16d9eae2784"></noscript>
+									<figcaption>DIXIT Disney Edition</figcaption>
+										<p>Para los fans de Dixit, ahora en la librería Pisapapeles contamos con la... ¡¡Edición Disney!!</p>
+								</figure>
+				</a>
+			</div>
+</div>				            </div>
+            <div class="columna-banner col-xs-12">
+
+    <div class="banner_aside col-xs-6 col-md-12">
+
+			<a href="/juegos" title="Juegos de mesa" target="_self">
+					<figure id="figure_56">
+									<figcaption>Juegos de mesa</figcaption>
+								<img alt="Juegos de mesa" data-src="https://www.pisapapeles.es/upload/img/banners/1753357465__banner_aside.png" id="6a16d9eae27a8"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img alt="Juegos de mesa" src="https://www.pisapapeles.es/upload/img/banners/1753357465__banner_aside.png" id="6a16d9eae27a9"></noscript>
+			</figure>
+				</a>
+	
+</div>				<div class="banner_aside col-xs-6 col-md-12">
+
+			<a href="/infantil" title="Libros infantiles" target="_self">
+					<figure id="figure_57">
+									<figcaption>Libros infantiles</figcaption>
+								<img alt="Libros infantiles" data-src="https://www.pisapapeles.es/upload/img/banners/1753357467__banner_aside_2.png" id="6a16d9eae27cb"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img alt="Libros infantiles" src="https://www.pisapapeles.es/upload/img/banners/1753357467__banner_aside_2.png" id="6a16d9eae27cc"></noscript>
+			</figure>
+				</a>
+	
+</div>				
+</div>
+        </div>
+    </section>
+
+    <section  class="container">
+                <div class="instagram row">
+                            <h5 class="instagram-title">Nuestro Instagram</h5>
+            <a href='https://www.instagram.com/p/DXoWWrziPiz/' target='_blank'><img class="instagram-image" data-src="https://scontent-fra5-1.cdninstagram.com/v/t51.82787-15/682441220_18288666319303685_3523671918385343705_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=OQPRm8c3L-wQ7kNvwHFJXBm&_nc_oc=AdomQsJrLiGgkOGYz_V9d6FDcRs647y18eozfYKQXRdRV7d5DvGaVx5xDwrH3b24HPA&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=SW8r07r2uUE2b9wSWM30IQ&_nc_tpa=Q5bMBQEuCRr-uzIfizDKpe2RKaUimfNS4JSzsKSK9fRsJNDWYnrllW9kg8yUkQn5an8iuzAIMqFUJZIa&oh=00_Af41EhV_f2tXSDPmkXCSPDeq3ZBFVJPkoZQnCCR2bCuJBA&oe=6A1CC583" alt="Imagen de nuestro Instagram" id="6a16d9eae2805"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img class="instagram-image" src="https://scontent-fra5-1.cdninstagram.com/v/t51.82787-15/682441220_18288666319303685_3523671918385343705_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=OQPRm8c3L-wQ7kNvwHFJXBm&_nc_oc=AdomQsJrLiGgkOGYz_V9d6FDcRs647y18eozfYKQXRdRV7d5DvGaVx5xDwrH3b24HPA&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=SW8r07r2uUE2b9wSWM30IQ&_nc_tpa=Q5bMBQEuCRr-uzIfizDKpe2RKaUimfNS4JSzsKSK9fRsJNDWYnrllW9kg8yUkQn5an8iuzAIMqFUJZIa&oh=00_Af41EhV_f2tXSDPmkXCSPDeq3ZBFVJPkoZQnCCR2bCuJBA&oe=6A1CC583" alt="Imagen de nuestro Instagram" id="6a16d9eae2806"></noscript></a><a href='https://www.instagram.com/reel/DXb9aiyiOca/' target='_blank'><img class="instagram-image" data-src="https://scontent-fra3-1.cdninstagram.com/v/t51.71878-15/673109227_1285686846989219_7294886396808889691_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=kkzRn-yY0CAQ7kNvwEXdiQY&_nc_oc=AdpPswHFb7nFHxErl1OpwALlC3eCbMo4CAkwRBpU5YSgCzO7R8Klua0CaFaGnIpYkSw&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=SW8r07r2uUE2b9wSWM30IQ&_nc_tpa=Q5bMBQF6c3GzhldbONd5NuCGo1TjkuDBKF-HLgTiazg9HqmbyVe8GJHc4Hi64aq8Atc6UtoqhidE-tJo&oh=00_Af5cMy8XyB8jBxJ24ZXqmibbfkC73mkXunVf4xeVSShcBA&oe=6A1CAEA6" alt="Imagen de nuestro Instagram" id="6a16d9eae2852"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img class="instagram-image" src="https://scontent-fra3-1.cdninstagram.com/v/t51.71878-15/673109227_1285686846989219_7294886396808889691_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=kkzRn-yY0CAQ7kNvwEXdiQY&_nc_oc=AdpPswHFb7nFHxErl1OpwALlC3eCbMo4CAkwRBpU5YSgCzO7R8Klua0CaFaGnIpYkSw&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=SW8r07r2uUE2b9wSWM30IQ&_nc_tpa=Q5bMBQF6c3GzhldbONd5NuCGo1TjkuDBKF-HLgTiazg9HqmbyVe8GJHc4Hi64aq8Atc6UtoqhidE-tJo&oh=00_Af5cMy8XyB8jBxJ24ZXqmibbfkC73mkXunVf4xeVSShcBA&oe=6A1CAEA6" alt="Imagen de nuestro Instagram" id="6a16d9eae2853"></noscript></a><a href='https://www.instagram.com/p/DXbTAXYCLkK/' target='_blank'><img class="instagram-image" data-src="https://scontent-fra3-1.cdninstagram.com/v/t51.82787-15/671199656_18287973631303685_1681795706867205854_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=txm7u8IzG7EQ7kNvwFruxfh&_nc_oc=AdpArEHherIIw_0mZffFu0YUByxEBBK8zCM5hPaCzkO31b1aYy9LP9MqF2Wl-bIc4-g&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=SW8r07r2uUE2b9wSWM30IQ&_nc_tpa=Q5bMBQEFg4EQ2VvIcXrr7uO3f9SNUz03Civfaz_BAYyrgvKrE3F-KjoNpJJw_nQZWNxhuqmOuxC4cQH4&oh=00_Af6hYFoDGHlJC5GxcskgebK6Zp5usXA1faYNefg0dS-JiA&oe=6A1CBDE0" alt="Imagen de nuestro Instagram" id="6a16d9eae289e"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img class="instagram-image" src="https://scontent-fra3-1.cdninstagram.com/v/t51.82787-15/671199656_18287973631303685_1681795706867205854_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=txm7u8IzG7EQ7kNvwFruxfh&_nc_oc=AdpArEHherIIw_0mZffFu0YUByxEBBK8zCM5hPaCzkO31b1aYy9LP9MqF2Wl-bIc4-g&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=SW8r07r2uUE2b9wSWM30IQ&_nc_tpa=Q5bMBQEFg4EQ2VvIcXrr7uO3f9SNUz03Civfaz_BAYyrgvKrE3F-KjoNpJJw_nQZWNxhuqmOuxC4cQH4&oh=00_Af6hYFoDGHlJC5GxcskgebK6Zp5usXA1faYNefg0dS-JiA&oe=6A1CBDE0" alt="Imagen de nuestro Instagram" id="6a16d9eae289f"></noscript></a><a href='https://www.instagram.com/p/DWW29ynCGoj/' target='_blank'><img class="instagram-image" data-src="https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/657685939_18284808796303685_596179845016923969_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=gxkRIIVgPNUQ7kNvwELVUxE&_nc_oc=AdoJjULyH5Mq7doWl1fS9-jD1Fg-J5KNp_gZX5UDMhDIJ9X6hro0P7xdF2c1dfE93KM&_nc_zt=23&_nc_ht=scontent-fra3-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=SW8r07r2uUE2b9wSWM30IQ&_nc_tpa=Q5bMBQFkK4TJRNj2-4Umjb4vmy0TPW8W7_gjNGFQkrMHp7a36VQmFXpWUyflgfYHZK-oVSI7w13vIcl5&oh=00_Af4QtzlfGcZ-R_MFeRH2T2aUew7QSgzV4pqEPZrsA9jtig&oe=6A1CB822" alt="Imagen de nuestro Instagram" id="6a16d9eae28e9"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img class="instagram-image" src="https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/657685939_18284808796303685_596179845016923969_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=gxkRIIVgPNUQ7kNvwELVUxE&_nc_oc=AdoJjULyH5Mq7doWl1fS9-jD1Fg-J5KNp_gZX5UDMhDIJ9X6hro0P7xdF2c1dfE93KM&_nc_zt=23&_nc_ht=scontent-fra3-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=SW8r07r2uUE2b9wSWM30IQ&_nc_tpa=Q5bMBQFkK4TJRNj2-4Umjb4vmy0TPW8W7_gjNGFQkrMHp7a36VQmFXpWUyflgfYHZK-oVSI7w13vIcl5&oh=00_Af4QtzlfGcZ-R_MFeRH2T2aUew7QSgzV4pqEPZrsA9jtig&oe=6A1CB822" alt="Imagen de nuestro Instagram" id="6a16d9eae28ea"></noscript></a><a href='https://www.instagram.com/p/DVmMfBziJAH/' target='_blank'><img class="instagram-image" data-src="https://scontent-fra5-1.cdninstagram.com/v/t51.82787-15/649164096_18281774035303685_7552837107894155685_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=KIRAtbBgyI4Q7kNvwEnLGt2&_nc_oc=AdrxsCvLUHHSLULENaXIAVeHxOlEwyAewgx9eM_OFQJrXUVnhwskAxMJkN_yxwj6Ns0&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=SW8r07r2uUE2b9wSWM30IQ&_nc_tpa=Q5bMBQE1u7gofyx3fuB-YBjQ8Cb3rYrBOE9YV3GlNTj-qS4-LOs61sg03v1AEfKkxJGC6-nJiGOMEq6K&oh=00_Af7y26iLmJeWLleOCw-34VJLZuKEX53sGGwPcytEVkuruw&oe=6A1CA0CA" alt="Imagen de nuestro Instagram" id="6a16d9eae292a"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img class="instagram-image" src="https://scontent-fra5-1.cdninstagram.com/v/t51.82787-15/649164096_18281774035303685_7552837107894155685_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=KIRAtbBgyI4Q7kNvwEnLGt2&_nc_oc=AdrxsCvLUHHSLULENaXIAVeHxOlEwyAewgx9eM_OFQJrXUVnhwskAxMJkN_yxwj6Ns0&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=SW8r07r2uUE2b9wSWM30IQ&_nc_tpa=Q5bMBQE1u7gofyx3fuB-YBjQ8Cb3rYrBOE9YV3GlNTj-qS4-LOs61sg03v1AEfKkxJGC6-nJiGOMEq6K&oh=00_Af7y26iLmJeWLleOCw-34VJLZuKEX53sGGwPcytEVkuruw&oe=6A1CA0CA" alt="Imagen de nuestro Instagram" id="6a16d9eae292b"></noscript></a><a href='https://www.instagram.com/p/DU-tGPCiDxk/' target='_blank'><img class="instagram-image" data-src="https://scontent-fra5-1.cdninstagram.com/v/t51.82787-15/639497780_18280099645303685_8470686155335828250_n.webp?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=bleO5qg6ufwQ7kNvwFRa0q3&_nc_oc=AdriwoqLEfxSH5Xl_SROuWJVyGqeKHlB92sXbIKZ13xC3UV5iJVWrYw9Z3_PJWNG76U&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=SW8r07r2uUE2b9wSWM30IQ&_nc_tpa=Q5bMBQHwTvALxO_VTCp-tbEMJ5vmkiwz5IqnjlHsZ0CF1jTeeDwXaWoTrg9fHomlWKhjsOfZXffSXFTQ&oh=00_Af4562pZt1XikWcyxH1dEEazbYbDxyAqP5yvVwr4xqUXWw&oe=6A1CB457" alt="Imagen de nuestro Instagram" id="6a16d9eae2964"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img class="instagram-image" src="https://scontent-fra5-1.cdninstagram.com/v/t51.82787-15/639497780_18280099645303685_8470686155335828250_n.webp?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=bleO5qg6ufwQ7kNvwFRa0q3&_nc_oc=AdriwoqLEfxSH5Xl_SROuWJVyGqeKHlB92sXbIKZ13xC3UV5iJVWrYw9Z3_PJWNG76U&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=SW8r07r2uUE2b9wSWM30IQ&_nc_tpa=Q5bMBQHwTvALxO_VTCp-tbEMJ5vmkiwz5IqnjlHsZ0CF1jTeeDwXaWoTrg9fHomlWKhjsOfZXffSXFTQ&oh=00_Af4562pZt1XikWcyxH1dEEazbYbDxyAqP5yvVwr4xqUXWw&oe=6A1CB457" alt="Imagen de nuestro Instagram" id="6a16d9eae2965"></noscript></a>        </div>
+            </section>
+
+
+<div class="clearfix"></div>    </main>
+    <footer id="footer">
+        <div class="contenedor_subvencion_superior">
+        <div class="container">
+            <div class="row">
+                <div class="subvencion_superior">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+	<figure id="figure_51">
+		<img alt="Financiado por la UniÃ³n Europea-Next Generation EU" data-src="https://www.pisapapeles.es/upload/img/subvencion/1752747772__es_financiado_por_la_union_europea_rgb_pos.png" id="6a16d9eae29a8"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img alt="Financiado por la UniÃ³n Europea-Next Generation EU" src="https://www.pisapapeles.es/upload/img/subvencion/1752747772__es_financiado_por_la_union_europea_rgb_pos.png" id="6a16d9eae29a9"></noscript>
+			</figure>
+	</div>
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+	<figure id="figure_52">
+		<img alt="Plan de RecuperaciÃ³n, TransformaciÃ³n y Resiliencia." data-src="https://www.pisapapeles.es/upload/img/subvencion/1752747774__1697468841__1683027406__logo-prtr-tres-lineas_color.png" id="6a16d9eae29d6"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img alt="Plan de RecuperaciÃ³n, TransformaciÃ³n y Resiliencia." src="https://www.pisapapeles.es/upload/img/subvencion/1752747774__1697468841__1683027406__logo-prtr-tres-lineas_color.png" id="6a16d9eae29d7"></noscript>
+			</figure>
+	</div>
+					                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-center">
+                <div class="whatsapp_fixed">
+            <a href="https://wa.me/34663155384" target="_blank"
+                title="Contacta con nosotros cuando lo necesites a través de nuestro WhatsApp">
+                <figure id="figure_41">
+		<img alt="Contacta por WhatsApp" data-src="https://www.pisapapeles.es/upload/img/iconos/whatsapp.webp" id="6a16d9eae2a07"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img alt="Contacta por WhatsApp" src="https://www.pisapapeles.es/upload/img/iconos/whatsapp.webp" id="6a16d9eae2a08"></noscript>
+</figure>	
+				            </a>
+        </div>
+                <div class="container">
+            <div class="row">
+                <div class="footer-static row-fluid">
+                    <div class="footer-block footer_logo banner_logo hidden-sm hidden-xs col-md-3">
+                        <div class="logof">
+	<a title="Logotipo pie de página" href="https://www.pisapapeles.es/">
+		<img class="logo img-responsive" alt="Logotipo pie de pÃ¡gina" data-src="https://www.pisapapeles.es/upload/img/banners/1752747660__ilustracion_transparente.png" height="65" width="214" id="6a16d9eae2a40"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img class="logo img-responsive" alt="Logotipo pie de pÃ¡gina" src="https://www.pisapapeles.es/upload/img/banners/1752747660__ilustracion_transparente.png" height="65" width="214" id="6a16d9eae2a41"></noscript>
+	</a>
+</div>				                    </div>
+                    <div class="footer-block footer_logo col-xs-12 col-sm-3 col-md-4 col-lg-3">
+                        <div class="logo_center">
+                            <ul class="logo-bullet">
+                                <li>
+                                    <em class="em1 hidden-sm hidden-xs">
+                                        <i class="mdi mdi-map-marker"></i>
+                                    </em>
+                                                                        <em class="em"><a href="https://maps.app.goo.gl/bEYdpNqHV79XgvAy5" target="_blank"
+                                            title="Dónde venir a visitarnos">Avda. Clara Campoamor nº11 - CAMAS  (41900) - SEVILLA</a></em>
+                                </li>
+                                                                <li>
+                                    <em class="em1 hidden-sm hidden-xs">
+                                        <i class="mdi mdi-phone"></i>
+                                    </em>
+                                                                        <em><a href="tel:+34954390117" title="Llamar por teléfono al 954390117">954390117</a></em>
+                                                                    </li>
+                                                                <li>
+                                    <em class="em1 hidden-sm hidden-xs">
+                                        <i class="mdi mdi-whatsapp "></i>
+                                    </em>
+                                                                        <em><a href="https://wa.me/34663155384" class="telefono" target="_blank" title="Contactar por WhatsApp"> +34 663155384</a></em>
+                                                                    </li>
+                                                                <li>
+                                    <em class="em1 hidden-sm hidden-xs">
+                                        <i class="mdi mdi-email"></i>
+                                    </em>
+                                    <em>
+                                                                            <a href="mailto:info@pisapapeles.es" title="Enviar un email a info@pisapapeles.es">info@pisapapeles.es</a>
+                                                                        </em>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-block col-xs-12 col-sm-3 col-md-3 col-lg-2">
+                        <h4 class="title_font">
+                            Destacamos                        </h4>
+                        <ul class="toggle-footer bullet">
+                            <li>
+                                <a href="https://www.pisapapeles.es/" title="Revisa nuestras novedades " >
+                                    Novedades                                </a>
+                            </li>
+                                                        <li>
+                                <a href="https://www.pisapapeles.es/contacto" rel="nofollow" title="Contacta con nosotros a través de nuestra sección de contacto" >
+                                    Contacto                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.pisapapeles.es/conocenos" rel="nofollow" title="Conoce más sobre nosotros" >
+                                    Quiénes somos                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.pisapapeles.es/catalogo_completo" rel="nofollow" title="Lista de todos los productos de la web" >
+                                    Catálogo completo                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <section class="footer-block col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                        <h4>
+                                                    <a href="https://www.pisapapeles.es/acceso" title="Ir al inicio de sesión" rel="nofollow">Mi cuenta</a>
+                                                </h4>
+                        <div class="block_content toggle-footer">
+                            <ul class="bullet">
+                                                                <li>
+                                    <a href="https://www.pisapapeles.es/registro"
+                                        title="Administrar mi información personal" rel="nofollow">
+                                        Registro                                     </a>
+                                </li>
+                                <li>
+                                    <a class="link-login" href="https://www.pisapapeles.es/acceso"
+                                        title="Iniciar sesión" rel="nofollow">
+                                        Iniciar sesión                                    </a>
+                                </li>
+                                                            </ul>
+                        </div>
+                    </section>
+                    <section class="footer-block col-xs-12 col-sm-3 col-md-3 col-lg-2" id="block_various_links_footer">
+                        <h4>
+                            Información                        </h4>
+                        <ul class="toggle-footer bullet" >
+                            <li class="item">
+                                <a href="https://www.pisapapeles.es/aviso_legal" rel="nofollow"
+                                    title="Aviso legal">
+                                    Aviso legal                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="https://www.pisapapeles.es/privacidad" rel="nofollow"
+                                    title="Política de privacidad">
+                                    Política de privacidad                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="https://www.pisapapeles.es/condiciones_venta" rel="nofollow"
+                                    title="Entregas y devoluciones">
+                                    Entregas y devoluciones                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="https://www.pisapapeles.es/desistimiento" rel="nofollow"
+                                    title="Formulario de desistimiento">
+                                    Desistimiento                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="https://www.pisapapeles.es/desistimiento_compra" rel="nofollow"
+                                    title="Formulario de desistimiento de compra">
+                                    Desistimiento de compra                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="https://www.pisapapeles.es/reclamaciones" rel="nofollow"
+                                    title="Formulario de reclamación">
+                                    Reclamaciones                                </a>
+                            </li>
+                            <li class="item">
+                                                                <a href="https://www.pisapapeles.es/cookies" rel="nofollow" title="Política de cookies">
+                                    Cookies                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="https://www.pisapapeles.es/gestion_cookies" rel="nofollow" title="Configuración de cookies">
+                                    Gestionar cookies                                </a>
+                                                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+            <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="footer-static row-fluid">
+                    <div class="footer-address col-xs-12 col-sm-6 col-md-6">
+                                                <a href="https://www.w3.org/WAI/WCAG2AA-Conformance" title="Explanation of WCAG 2 Level AA conformance" target="_blank" >
+                            <img height="32" width="88" data-src="https://www.w3.org/WAI/WCAG21/wcag2.1AA-blue-v.png" alt="Level AA conformance, W3C WAI Web Content Accessibility Guidelines 2.1" id="6a16d9eae2a77"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img height="32" width="88" src="https://www.w3.org/WAI/WCAG21/wcag2.1AA-blue-v.png" alt="Level AA conformance, W3C WAI Web Content Accessibility Guidelines 2.1" id="6a16d9eae2a78"></noscript>
+                        </a>
+                        <p>
+                            © 2025. Librería Pisapapeles. Desarrollado por <a
+                                href="http://www.arminet.es/">Arminet Software&AMP;web</a>
+                        </p>
+                                            </div>
+                    <div id="social_block" class="col-xs-12 col-sm-6 col-md-6">
+                        <div class="redes_sociales">
+                            
+            <a class="facebook" href="https://www.facebook.com/pisapapelesdecamas" title="Síguenos en Facebook" target="_blank"  rel="nofollow">
+                                <img data-src="https://www.pisapapeles.es/upload/img/iconos/1753360414__facebook_footer.png" alt="Facebook" id="6a16d9eae2aa5"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img src="https://www.pisapapeles.es/upload/img/iconos/1753360414__facebook_footer.png" alt="Facebook" id="6a16d9eae2aa6"></noscript>
+                            </a>
+            
+            <a class="instagram" href="https://www.instagram.com/pisapapelescamas/" title="Síguenos en Instagram" target="_blank"  rel="nofollow">
+                                <img data-src="https://www.pisapapeles.es/upload/img/iconos/1753360397__instagram_footer.png" alt="Instagram" id="6a16d9eae2ac9"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img src="https://www.pisapapeles.es/upload/img/iconos/1753360397__instagram_footer.png" alt="Instagram" id="6a16d9eae2aca"></noscript>
+                            </a>
+            
+            <a class="x" href="https://x.com/PISAPAPELESLIB" title="Síguenos en X" target="_blank"  rel="nofollow">
+                                <img data-src="https://www.pisapapeles.es/upload/img/iconos/1753360410__gorjeo.png" alt="X" id="6a16d9eae2aec"  src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"><noscript><img src="https://www.pisapapeles.es/upload/img/iconos/1753360410__gorjeo.png" alt="X" id="6a16d9eae2aed"></noscript>
+                            </a>
+                                    </div>
+                    </div>
+                    <div class="footer_last">
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script>
+document.addEventListener('WSLE', function(event) {
+    $(document).ready(function() {
+
+        //Marina(03/Enero/2020) si el ancho de la pantalla es mayor que 600 ejecutamos el jquery
+        //esto resuelve el problema de estilos que existia en moviles
+        var ventana_ancho = $(window).width();
+
+        if (ventana_ancho >= 600) {
+
+            activarSticky();
+            //Vamos a controlar el sticky menu:
+            //sticky-fixed-top
+            //$(document).on('scroll', function () {
+            document.addEventListener('scroll', function() {
+                activarSticky();
+            }, {
+                passive: true
+            });
+
+            function activarSticky() {
+                //Vamos a ver si la barra se ve entera:
+                if ($("#contenedorNav").visible()) {
+                    barraCabecera = $("#contenedorNav").find('nav.main-navigation');
+                    if (barraCabecera.hasClass('fixed')) {
+                        barraCabecera.removeClass('fixed');
+                        $('#sticky_top.sticky-fixed-top').removeClass('sticky-fixed-top');
+                        $('#contenedorNav').removeClass('fieldmegamenu-sticky');
+                        $('.busquedaCesta').removeClass('busquedaCesta-sticky');
+                        $("#sticky_top").css('right', 'auto');
+                    }
+
+                } else {
+                    barraCabecera = $("nav.main-navigation");
+                    totalElementos = barraCabecera.length;
+                    if (totalElementos > 0) {
+                        if (!barraCabecera.hasClass('fixed')) {
+                            barraCabecera.addClass('fixed');
+                            $('#sticky_top').addClass('sticky-fixed-top');
+                            $('#contenedorNav').addClass('fieldmegamenu-sticky');
+                            $('.busquedaCesta').addClass('busquedaCesta-sticky');
+                            //Pedro 13/Mayo/2020 ==> quitamos esta opción porque se me pone encima de la cesta,lo dejamos como auto
+                            //tatiana 06/08/21 lo modifico paqa que si carga la cabecera tres tenga este javascript y si no el otro
+                                                        $("#sticky_top").css('right', ($('body').width() - $('nav .container')
+                                .outerWidth()) / 2 + "px");
+                            
+                        }
+                    }
+                }
+            }
+        }
+        $('.v-megamenu.dropdown-menu').on("click", function(event) {
+            event.stopPropagation();
+        });
+
+        /* ===========================================================================
+
+        SCRIPT >>> ALTURA MENU AL HACER SCROLL
+
+        ============================================================================ */
+
+        //$(document).on("scroll",function(){
+        document.addEventListener('scroll', function() {
+            var primer_header = $('header:first');
+            if ($(document).scrollTop() > ($('header').outerHeight()) / 2) {
+                //$("header").removeClass("large_header").addClass("small_header");
+                primer_header.find('nav div.large_topBar').removeClass('large_topBar').addClass(
+                    'small_topBar');
+                primer_header.find('nav a.navbar-brand').removeClass('large_logo').addClass(
+                    'small_logo');
+                primer_header.find('div.busquedaCesta').removeClass('large_cesta').addClass(
+                    'small_cesta');
+            } else {
+                //$("header").removeClass("small_header").addClass("large_header");
+                primer_header.find('nav div.small_topBar').removeClass('small_topBar').addClass(
+                    'large_topBar');
+                primer_header.find('nav a.navbar-brand').removeClass('small_logo').addClass(
+                    'large_logo');
+                primer_header.find('div.busquedaCesta').removeClass('small_cesta').addClass(
+                    'large_cesta');
+            }
+        }, {
+            passive: true
+        });
+    });
+});
+</script><script>
+	var shopUrl = 'https://www.pisapapeles.es/';
+</script>
+
+<script>
+	ws8n7y70 = function(controller, method, data, event, callback){
+		ws8n7y70(controller, method, data, event, callback);
+	};
+	
+</script>
+
+<link rel="preload" href="https://www.pisapapeles.es/themes/peperit/html_files/fonts/materialdesignicons/materialdesignicons-webfont.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+					<link rel="stylesheet" type="text/css" href="https://www.pisapapeles.es/dynamic/1832285081/media/css/home_cssPie.css">
+				 <script >
+		document.addEventListener('WSLE', function(event) {
+			$('.preloader').remove();
+		});
+</script>
+
+				<script>
+					var auxFunc = window.onload;
+					auxFunc = (auxFunc == null) ? function() {} : auxFunc;
+					//Pedro 20/11/2020 ==> el evento WSLE se ejecuta ahora desde una función que hemos añadido a "document"
+					//Se ha hecho en el fichero required/view.php. De esta manera capturamos los eventos para borrarlos desdpués de lanzarlos
+					//Cuando se cargue de manera asíncrona una serie de objetos, estos pueden llevar el wsle también y así lo podemos ejecutar sin problema
+					window.onload = function() {
+						//Vamos a hacerlo con un timeout para intentar que no se entere google
+						setTimeout(function() {
+
+							//Ejecutamos la función "onload" para maximizar compatibilidad
+							auxFunc();
+							//Creamos la función callback que es la que lanza el webstore trigger event
+							callback = function() {
+								document.triggerWLSEvent();
+							};
+							//Pedro 23/Marzo/2021 ==> Vamos a cargar aquí el script del pie, pero de manera dinámica:
+							var script = document.createElement("script")
+							script.type = "text/javascript";
+							//Retrocompatibilidad
+							if (script.readyState) { //IE
+								script.onreadystatechange = function() {
+									if (script.readyState == "loaded" ||
+										script.readyState == "complete") {
+										script.onreadystatechange = null;
+										callback();
+									}
+								};
+							} else { //Others
+								script.onload = function() {
+									callback();
+								};
+							}
+							var url = 'https://www.pisapapeles.es/dynamic/1832285081/media/js/home_jsPie.js';
+							script.src = url;
+							document.getElementsByTagName("head")[0].appendChild(script);
+						}, 1500);
+					};
+				</script>
+
+					<script>
+			const p_ws8n7y70 = (controller, method, data, event) => {
+			//function wsdu_promise(controller, method, data, event) {
+				return(new Promise(function(resolve, reject){
+					ws8n7y70(controller, method, data, event, resolve, reject);
+				}));
+			}
+			const ws8n7y70 = (controller, method, data, event, callback, errCallback) => {
+				//Nos aseguramos de que las variables tengan un valor
+				controller = (typeof controller != 'undefined') ? controller : '';
+				method = (typeof method != 'undefined') ? method : '';
+				event = (typeof event != 'undefined') ? event : '';
+				callback = (typeof callback != 'undefined') ? callback : function() {};
+                data = (data == '') ? {} : data;
+				//Si los campos obligatorios están inicializados vamos allá
+                //Pedro 02/Diciembre/2021 ==> Vamos a quitar este control que en su día no existía y no sé porqué está puesto. La idea es que se puedan ejecuar funciones remotas vacías para actualizar capas
+				//if ((controller != '') && (method != '')) {
+					var components = new Array();
+					//Vamos a cargar los objetos de este evento a recargarlos y a ejecutar el callback
+					if (event != '') {
+						//Pedro 22/Abril/2019 ==> Modificamos el componente para que se puedan añadir más campos a actualizar utilizando un pipe como separador: |
+						var eventArray = event.split('|');
+						eventArray.forEach(function(currentValue, index, completeArray) {
+							if (currentValue != '') {
+								//console.log("$('[data-update" + currentValue + "]')");
+								$('[data-update' + currentValue + ']').each(function() {
+									components.push({
+										'component': $(this).data('configuration')
+									});
+								});
+							}
+						});
+					}
+					//Si hay componentes se añaden a los datos que tenemos
+					//if (components.length > 0){ //==> Aunque no haya componentes, hay que ejecutar la función remota
+					data['components'] = components;
+					//console.log("Data es: ", data);
+					var dataToSend = {
+						controller: controller,
+						method: method,
+						data: data,
+                        WS_data_update: 'ws8n7y70',
+					};
+					//console.log("Antes ", dataToSend);
+					//Vamos a pasar los datos en base64:
+					dataToSend = JSON.stringify(dataToSend);
+					//console.log("Despues ", dataToSend);
+					//dataToSend = btoa(dataToSend);
+					dataToSend = b64EncodeUnicode(dataToSend);
+					//Vamos a enviar la petición:
+					//console.log("enviamos la petición");
+										$.ajax({
+						url: 'https://www.pisapapeles.es/remote_request.php',
+						type: 'post',
+						dataType: 'text',
+						contentType: 'application/json',
+						success: function(data) {
+							//
+							//	24/Enero/2019 ==> A partir de ahora data es una estructura como esta:
+							//	{
+							//		response: respuesta que nos manda la función remota ejecutada, puede ser cualquier cosa (objeto, array, dato, etc.)
+							//		data: lista de objetos a insertar en el HTML
+							//		msgs: mensaje devuelto por el sistema
+							//	}
+							//	//Adatamos la función para que procese estos datos
+							//
+							//Tenemos que coger los datos recibidos y procesarlos
+							//Básicamente tengo el texto que debo meter en cada widget:
+							//console.log('index------------------------------------');
+							//console.log("Recibido" + data);
+
+							try {
+								data = JSON.parse(data);
+							} catch (error) {
+								console.log("ERROR");
+								console.log(data);
+								data = null
+							}
+
+							//console.log(data);
+							//	data = null;
+							//console.log(JSON.parse(data.response));
+							//console.log(data.response);
+							//console.log(data.msgs);
+							//console.log(data.data);
+							//console.log("inicio actualización de datos");
+							if (data != null) {
+								//data = JSON.parse(data.data);
+								var i = 0;
+								//No hay que hacer nada si no hay evento asociado:
+								if (event != '') {
+									var listaComponentes = data.data
+									//Insertamos el contenido de cada componente en su sitio
+									if (Array.isArray(listaComponentes)) {
+										var limit = listaComponentes.length;
+										for (i = 0; i < limit; i++) {
+											//console.log(listaComponentes[i]);
+											insertComponentData(listaComponentes[i]);
+										}
+									} else {
+										insertComponentData(listaComponentes);
+									}
+									//console.log("Terminado de actualizar");
+									function insertComponentData(data) {
+										//console.log("Insetamos componentes");
+										//console.log(data);
+										//Si no hay hash, o content, no podemos hacer nada:
+										if (typeof data != 'undefined') {
+											//Vamos a buscar el componente:
+											//console.log('[data-configuration="' + data.hash + '"]');
+											//console.log(data.content);
+											$('[data-configuration="' + data.hash + '"]').html($(data.content).html());
+										}
+									}
+								}
+								//Pedro 20/Noviembre/2020 ==> Aquí ejecutamos y limpiamos los posibles WSLE que se puedan haber programado en esta carga dinámica
+								document.triggerWLSEvent();
+								//Ejecutamos el callback
+								//Pedro 05/Mayo/2021 ==> Vamos a tener en cuenta lo que hemos recibido con data, nos pueden haber mandado un error, en cuyo caso llamamos a la función 
+								//	de error
+								if (data.error){
+									if (typeof errCallback != 'undefined'){
+										errCallback(data);
+									}
+								}else{
+									callback(data);
+								}
+							}else{
+								//Pedro 05/Mayo/2021 ==> Cuando hay error, llamamos a la función de error
+								if (typeof errCallback != 'undefined'){
+									errCallback(data);
+								}
+							}
+						},
+						error: function(e, x, settings, exception) {
+							console.log(e);
+							if (typeof errCallback != 'undefined'){
+								errCallback(e);
+							}
+						},
+						data: JSON.stringify(dataToSend)
+					});
+					//}
+				/* }else{
+                                    } */
+			}
+		</script>
+
+			<script>
+				const WS_data_update = (controller, method, data, event, callback) => {
+					ws8n7y70(controller, method, data, event, callback);
+				};
+			</script>
+
+<script>
+					document.addEventListener('WSLE', function(event) {
+						function jsf6a16d9eae2b6d(element, imgObserver){
+							var retorno = false;
+							if (element != null){
+								imgObserver.observe(element);
+								retorno = true;
+							}else{
+								/*console.log(element);*/
+							}
+							return(retorno);
+						}
+						function jsf6a16d9eae2b6c(entries, observer) {
+							for (var i = 0; i < entries.length; i++) {
+								var io = entries[i];
+								if (io.isIntersecting && io.intersectionRatio > 0) {
+									var image = io.target,
+										src = image.getAttribute("data-src"),
+										srcSet = image.getAttribute("data-srcset");
+									if (srcSet) {
+										image.setAttribute("srcset", srcSet);
+									}
+									if (src) {
+										image.setAttribute("src", src);
+									}
+									/* Stop watching and load the image*/
+									observer.unobserve(io.target);
+								}
+							}
+						}
+						var jsf6a16d9eae2b6e = new IntersectionObserver(jsf6a16d9eae2b6c, 
+							{
+								/* If the image gets within 50px in the Y axis, start the download.*/
+								rootMargin: '50px 0px',
+								threshold: 0.1
+							}
+						); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae2246'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae22ea'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae232c'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae2364'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae23aa'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae23f0'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae242c'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae2484'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae24c4'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae24fa'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae252e'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae2589'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae25e4'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae2682'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae26c7'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae26f9'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae272d'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae2754'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae2783'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae27a8'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae27cb'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae2805'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae2852'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae289e'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae28e9'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae292a'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae2964'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae29a8'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae29d6'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae2a07'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae2a40'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae2a77'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae2aa5'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae2ac9'), jsf6a16d9eae2b6e); var cosa = jsf6a16d9eae2b6d(document.getElementById('6a16d9eae2aec'), jsf6a16d9eae2b6e);
+					});			
+				</script>
+                </body>
+                </html> este es el codigo original
