@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Librería Pisapapeles</title>
+    
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    
+    <meta name="description" content="Librería y papelería situada en Camas (Sevilla) desde 1999. Disponemos de gran variedad de libros y juegos.">
+    <meta name="keywords" content="libreria camas, papeleria camas, libreria sevilla, juegos sevilla, juguetes sevilla, libros camas">
+    <meta name="author" content="Arminet">
+    <meta name="Copyright" content="Copyright ARMINET">
+    <meta name="language" content="ES">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.pisapapeles.es/">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Librería Pisapapeles">
+    <meta property="og:description" content="Librería y papelería situada en Camas (Sevilla) desde 1999. Disponemos de gran variedad de libros y juegos.">
+    <meta property="og:url" content="https://www.pisapapeles.es/">
+    <meta property="og:site_name" content="Librería Pisapapeles">
+    <meta property="og:image" content="https://www.pisapapeles.es/upload/img/logotipos/1752233788__logo_facebook.png">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="@miSitedeTest">
+    
+    <link rel="shortcut icon" href="https://www.pisapapeles.es/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.pisapapeles.es/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.pisapapeles.es/themes/pisapapeles/html_files/favicon/favicon-32x32.png">
+    
+    <style>
+        * { font-family: "Poppins", sans-serif; box-sizing: border-box; }
+        a { color: #e0e0e0; text-decoration: none; }
+        body { height: 100%; width: 100%; background: #000; margin: 0; }
+        
+        .preloader { position: fixed; width: 100%; height: 100%; background-color: #fff; z-index: 10000; left: 0; top: 0; text-align: center; }
+        .preloader .container { display: flex; align-items: center; justify-content: center; height: 100%; width: 100%; }
+        .lds-grid { display: inline-block; position: relative; width: 64px; height: 64px; }
+        .lds-grid div { position: absolute; width: 13px; height: 13px; border-radius: 50%; background: #1a1a1a; animation: lds-grid 1.2s linear infinite; }
+        
+        .lds-grid div:nth-child(1) { top: 6px; left: 6px; animation-delay: 0s; }
+        .lds-grid div:nth-child(2) { top: 6px; left: 26px; animation-delay: -0.4s; }
+        .lds-grid div:nth-child(3) { top: 6px; left: 45px; animation-delay: -0.8s; }
+        .lds-grid div:nth-child(4) { top: 26px; left: 6px; animation-delay: -0.4s; }
+        .lds-grid div:nth-child(5) { top: 26px; left: 26px; animation-delay: -0.8s; }
+        .lds-grid div:nth-child(6) { top: 26px; left: 45px; animation-delay: -1.2s; }
+        .lds-grid div:nth-child(7) { top: 45px; left: 6px; animation-delay: -0.8s; }
+        .lds-grid div:nth-child(8) { top: 45px; left: 26px; animation-delay: -1.2s; }
+        .lds-grid div:nth-child(9) { top: 45px; left: 45px; animation-delay: -1.6s; }
+        
+        @keyframes lds-grid {
+            0%, 100% { opacity: 1; }
+            50% { opacity: .5; }
+        }
+        @media only screen and (max-width: 600px){ .preloader .container section { min-width: 350px; } }
+    </style>
+        
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "https://www.pisapapeles.es/",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.pisapapeles.es/buscar/{search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
+    <script type="application/ld+json" id="microdata-localbusiness-script">
+    {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "MONTES SERRANO, MARCIAL",
+        "url": "https://www.pisapapeles.es/",
+        "sameAs": ["https://www.pisapapeles.es/"],
+        "priceRange": "€€",
+        "description": "Librería y papelería situada en Camas (Sevilla) desde 1999. Disponemos de gran variedad de libros y juegos.",
+        "telephone": "954390117",
+        "logo": "https://www.pisapapeles.es/upload/img/logotipos/1752669785__logo_completo.png",
+        "image": "https://www.pisapapeles.es/upload/img/logotipos/1752669785__logo_completo.png",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Avda. Clara Campoamor nº11",
+            "addressLocality": "CAMAS",
+            "addressRegion": "SEVILLA",
+            "postalCode": "41900",
+            "addressCountry": "ES"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "37.4022", 
+            "longitude": "-6.0331"
+        },
+        "openingHours": "Mo-Fr 09:00-14:00, 17:00-20:00; Sa 10:30-13:30",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Customer Service",
+            "telephone": "954390117"
+        }
+    }
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8FEY0ND05J"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-8FEY0ND05J');
+        gtag('consent', 'update', {
+            'ad_storage': 'granted',
+            'analytics_storage': 'granted'
+        });
+    </script>
+</head>
+<body>
+
+    <div class="fondo-espacio-cookies" style="display:none;" data-nosnippet="data-nosnippet">
+        <div class="espacio-cookies">
+            <div class="espacio-cookies-scroll">
+                <div class="informacion-general-cookies">
+                    <div class="texto">
+                        Este sitio web utiliza cookies para mejorar su experiencia mientras navega...
+                    </div>
+                </div>
+                
+                <div class="tipo_cookie">
+                    <p><strong>Imprescindibles</strong></p>
+                    <p>Las cookies necesarias son absolutamente esenciales para que el sitio web funcione correctamente.</p>
+                </div>
+                
+                <div class="tipo_cookie">
+                    <div class="tipo-cookies-cabecera">
+                        <p><strong>No imprescindibles</strong></p>
+                        <div class="tipo-cookie-switch">
+                            <input id="check_tipo_cookie_no_imprescindible" type="checkbox" class="tipo-cookie-check" checked>
+                            <label for="check_tipo_cookie_no_imprescindible"></label>
+                        </div>
+                    </div>
+                    
+                    <div class="tipo-cookies-contenido">
+                        <button class="boton" type="button" data-toggle="collapse" data-target="#configuracion_cookies">Ver no imprescindibles</button>
+                        
+                        <div class="text_leg_fCookies collapse" id="configuracion_cookies">
+                            <div class="sub-cookie"><p>Google</p><input id="check_tipo_cookie_google" type="checkbox" class="sub-cookie-check" checked></div>
+                            <div class="sub-cookie"><p>Google ADS</p><input id="check_tipo_cookie_ads" type="checkbox" class="sub-cookie-check" checked></div>
+                            <div class="sub-cookie"><p>Google Analytics</p><input id="check_tipo_cookie_analytics" type="checkbox" class="sub-cookie-check" checked></div>
+                            <div class="sub-cookie"><p>Google Recaptcha</p><input id="check_tipo_cookie_grecaptcha" type="checkbox" class="sub-cookie-check" checked></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="capa_boton">
+                    <button class="aceptarConfigurar">Configurar</button>
+                    <button class="aceptarSoloBasicas">Básicas</button>
+                    <button class="aceptarGuardar">Aceptar todas</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="busquedaCesta">
+            <div class="container">
+                <div class="row">
+                    
+                    <div id="header_logo" class="col-xs-12 col-sm-4 col-md-3">
+                        <a href="/" title="Volver al inicio">
+                            <img class="logo img-responsive" src="https://www.pisapapeles.es/upload/img/logotipos/1752669785__logo_completo.png" alt="Librería Pisapapeles">
+                        </a>
+                    </div>
+                    
+                    <nav class="nav">
+                        <ul id="header_links">
+                            <li><a href="https://www.pisapapeles.es/acceso" class="account">Iniciar Sesión</a></li>
+                            <li><a href="https://www.pisapapeles.es/registro" class="hidden-xs">Registrarse</a></li>
+                        </ul>
+                    </nav>
+                    
+                    <div id="sticky_top" class="col-xs-6 col-sm-12 col-md-9">
+                        <form method="post" action="https://www.pisapapeles.es/buscar" id="searchbox">
+                            <input class="search_query" type="text" id="search_query_top" name="txt_busqueda" placeholder="Autor, Título, Editorial" required>
+                            <button type="submit" title="Buscar" class="boton"><i class="mdi mdi-magnify"></i></button>
+                        </form>
+                    </div>
+
+                    <div class="shopping_cart_menu">
+                        <div class="cesta_desplegableV2">
+                            <div class="webStoreDropDown" id="_cesta_contenedor">
+                                <div class="contenedor_cesta_desplegable">
+                                    <div class="cesta_vaciar">
+                                        <a href="javascript:void(0);" title="Vaciar cesta" id="btn_vaciar_cesta">Vaciar</a>
+                                    </div>
+                                    <div class="contenedor_totales_cesta" id="bloque_total_cesta"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const preloader = document.querySelector('.preloader');
+            if(preloader) preloader.style.display = 'none';
+
+            const searchForm = document.getElementById('searchbox');
+            const searchInput = document.getElementById('search_query_top');
+            
+            searchForm.addEventListener('submit', (e) => {
+                if (!searchInput.value.trim()) {
+                    e.preventDefault();
+                    searchInput.focus();
+                }
+            });
+
+            const mainCookieCheck = document.getElementById('check_tipo_cookie_no_imprescindible');
+            const subCookieChecks = document.querySelectorAll('.sub-cookie-check');
+            const cookieBanner = document.querySelector('.fondo-espacio-cookies');
+
+            if(!localStorage.getItem('cookies_accepted')) {
+                cookieBanner.style.display = 'block';
+            }
+
+            mainCookieCheck.addEventListener('change', (e) => {
+                subCookieChecks.forEach(check => check.checked = e.target.checked);
+            });
+
+            subCookieChecks.forEach(checkbox => {
+                checkbox.addEventListener('change', () => {
+                    mainCookieCheck.checked = Array.from(subCookieChecks).some(c => c.checked);
+                });
+            });
+
+            document.querySelector('.aceptarGuardar').addEventListener('click', () => saveCookiePreferences(true));
+            document.querySelector('.aceptarSoloBasicas').addEventListener('click', () => saveCookiePreferences(false));
+            
+            function saveCookiePreferences(allAccepted) {
+                localStorage.setItem('cookies_accepted', allAccepted ? 'all' : 'basic');
+                cookieBanner.style.display = 'none';
+            }
+
+            document.getElementById('btn_vaciar_cesta').addEventListener('click', () => {
+                if (confirm('¿Desea vaciar la cesta por completo?\nEsta operación no tiene marcha atrás.')) {
+                    location.reload();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
