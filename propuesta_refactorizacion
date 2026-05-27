@@ -32,7 +32,6 @@ src="producto.webp"
 loading="lazy"
 alt="Juego educativo Numberblocks Puzzle Solver">
 
-
 ### Beneficios
 
 - Reduce las peticiones iniciales.
@@ -62,12 +61,10 @@ html
 
 <script src="animations.js"></script>
 
-
 Después:
 
 html
 <script defer src="app.min.js"></script>
-
 
 ### Beneficios
 
@@ -75,7 +72,6 @@ html
 - Reducción del procesamiento del navegador.
 - Menor uso de CPU y memoria.
 - Mejor rendimiento general.
-
 
 ## 4.3 Reflexión sobre la Paradoja de Jevons
 
